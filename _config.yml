@@ -1,0 +1,8 @@
+theme: minima
+title: "Frederic von Vlahovits"
+description: "Researcher | Product Manager | Digital Builder"
+remote_theme: "jekyll/minima"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
