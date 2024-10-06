@@ -12,13 +12,13 @@ With nearly a decade of experience in digital product management and academic re
 **Product Owner @[idealo](https://www.idealo.de)** (Oct 2022 – Present)  
 Leading product development for one of Europe's most visited e-commerce homepage, focusing on enhancing user engagement and business growth by creating a world-class user experience.
 
-**Doctoral Fellow @[Foundation for the Study of the Communist Dictatorship](https://www.bundesstiftung-aufarbeitung.de/)** (Nov 2021 – Oct 2022)  
+**Doctoral Fellow @[Foundation for the Study of the Communist Dictatorship](https://www.bundesstiftung-aufarbeitung.de)** (Nov 2021 – Oct 2022)  
 Researching the history of musicology in the GDR, contributing to the academic discourse on cultural policies and their influence on the field.
 
-**Coordination Lead @[Academy of Sciences and Literature](https://www.adwmainz.de/)** (Oct 2020 – Jul 2021)  
+**Coordination Lead @[Academy of Sciences and Literature](https://www.adwmainz.de)** (Oct 2020 – Jul 2021)  
 Managing the [NFDI4Culture](https://nfdi4culture.de/) project, which developes a digital infrastructure for cultural heritage data, and facilitates collaboration among national cultural institutions.
 
-**Research Software Engineer @[Academy of Sciences and Literature](https://www.adwmainz.de/)** (Apr 2017 – Sep 2020)  
+**Research Software Engineer @[Academy of Sciences and Literature](https://www.adwmainz.de)** (Apr 2017 – Sep 2020)  
 Contributing to international digital humanities projects, developing software solutions for research data aggregation in musicology, and supporting academic research proposals with technical expertise.
 
 **Research Assistant @[Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (Jun 2015 – Sep 2016)  
@@ -47,19 +47,19 @@ Exploring the connections between film, music, and media.
 
 ### Key Research Projects
 
-**[NFDI4Culture](https://nfdi4culture.de/)**  
+**[NFDI4Culture](https://nfdi4culture.de)**  
 A national project aimed at creating a demand-oriented research infrastructure for tangible and intangible cultural heritage data.
 
-**[IncipitSearch](https://incipitsearch.de/)**  
+**[IncipitSearch](https://incipitsearch.adwmainz.net)**  
 A web platform for searching notated music, which also includes a web service and API for open music data.
 
-**[Gluck-Werkverzeichnis-online](https://www.gluck-online.de/)**  
+**[Gluck-Werkverzeichnis-online](https://www.gluck-gesamtausgabe.de)**  
 A digital catalog raisonné of Christoph Willibald Gluck’s musical works, providing an online resource for international research into the composer’s oeuvre.
 
-**[Portal Kleine Fächer](https://www.kleinefaecher.de/)**  
+**[Portal Kleine Fächer](https://www.kleinefaecher.de)**  
 An information portal that visualizes the development of small academic disciplines in Germany, offering geographical displays and statistical analyses.
 
-**[AGATE](https://agate.academy/)**  
+**[AGATE](https://agate.academy)**  
 A European research information system for the Union of German Academies of Sciences and Humanities, enhancing the visibility and accessibility of research data by science academys across Europe.
 
 ---
