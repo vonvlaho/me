@@ -100,4 +100,4 @@ Awarded for a short movie that explored the intersection of science and media.
 
 ### Connect with Me
 
-[LinkedIn](https://www.linkedin.com/in/vonvlaho/) \| [GitHub](https://github.com/vonvlaho) \| [ORCID](https://orcid.org/0000-0002-1410-0703)
+[LinkedIn](https://www.linkedin.com/in/vonvlaho/) \| [GitHub](https://github.com/vonvlaho) \| [ORCID](https://orcid.org/0000-0002-8111-6405)
