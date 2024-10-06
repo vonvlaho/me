@@ -3,22 +3,22 @@ layout: default
 title: Home
 ---
 
-With nearly a decade of experience in digital product management and academic research, bridging technical innovation and the humanities, with a hands-on approach to leading teams and projects.
+With nearly a decade of experience in digital product management and academic research, I bridge technical innovation and the humanities, with a hands-on approach to leading teams and projects.
 
 ---
 
 ### Experience
 
-**Product Owner at [Idealo Internet GmbH](https://www.idealo.de)** (Oct 2022 – Present)  
-Leading product strategy for Germany’s largest e-commerce homepage, focusing on enhancing user engagement and business growth by integrating actionable insights into development processes.
+**Product Owner @[idealo](https://www.idealo.de)** (Oct 2022 – Present)  
+Leading product development for one of Europe's most visited e-commerce homepage, focusing on enhancing user engagement and business growth by creating a world-class user experience.
 
-**Doctoral Fellow at the Foundation for the Study of the Communist Dictatorship** (Nov 2021 – Oct 2022)  
-Researching the history of musicology in the GDR and contributing to the academic discourse on cultural policies and their influence on the field.
+**Doctoral Fellow @[Foundation for the Study of the Communist Dictatorship](https://www.bundesstiftung-aufarbeitung.de/)** (Nov 2021 – Oct 2022)  
+Researching the history of musicology in the GDR, contributing to the academic discourse on cultural policies and their influence on the field.
 
-**Coordination Lead at the [Academy of Sciences and Literature](https://www.adwmainz.de/)** (Oct 2020 – Jul 2021)  
-Overseeing the NFDI4Culture project, which developed a digital infrastructure for cultural heritage research, and facilitating collaboration among national cultural institutions.
+**Coordination Lead @[Academy of Sciences and Literature](https://www.adwmainz.de/)** (Oct 2020 – Jul 2021)  
+Managing the [NFDI4Culture](https://nfdi4culture.de/) project, which developes a digital infrastructure for cultural heritage data, and facilitates collaboration among national cultural institutions.
 
-**Research Software Engineer at the Academy of Sciences and Literature** (Apr 2017 – Sep 2020)  
+**Research Software Engineer @[Academy of Sciences and Literature](https://www.adwmainz.de/)** (Apr 2017 – Sep 2020)  
 Contributing to international digital humanities projects, developing software solutions for research data aggregation in musicology, and supporting academic research proposals with technical expertise.
 
 **Research Assistant at [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (Jun 2015 – Sep 2016)  
@@ -35,7 +35,7 @@ Collaborating with editorial teams to curate and select music for television pro
 ### Education
 
 **PhD Candidate at [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2017 – 2024)  
-Doctoral thesis submitted on "Apparat Musikwissenschaft – A History of Music Research in the German Democratic Republic."
+Doctoral thesis submitted on “Apparat Musikwissenschaft – A History of Music Research in the German Democratic Republic.“
 
 **MA in Musicology from [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2014 – 2016)  
 Focusing on the intersection of music history, technology, and cultural studies.
@@ -48,10 +48,10 @@ Exploring the connections between film, music, and media.
 ### Key Research Projects
 
 **[NFDI4Culture](https://nfdi4culture.de/)**  
-A national project aimed at creating a demand-oriented research infrastructure for tangible and intangible cultural heritage data, where the development of a collaborative portal for researchers was led.
+A national project aimed at creating a demand-oriented research infrastructure for tangible and intangible cultural heritage data.
 
 **[IncipitSearch](https://incipitsearch.de/)**  
-A web platform for searching notated music, which also includes a web service and API for open music data, facilitating interdisciplinary collaboration between musicologists and digital humanities experts.
+A web platform for searching notated music, which also includes a web service and API for open music data.
 
 **[Gluck-Werkverzeichnis-online](https://www.gluck-online.de/)**  
 A digital catalog raisonné of Christoph Willibald Gluck’s musical works, providing an online resource for international research into the composer’s oeuvre.
@@ -60,20 +60,17 @@ A digital catalog raisonné of Christoph Willibald Gluck’s musical works, prov
 An information portal that visualizes the development of small academic disciplines in Germany, offering geographical displays and statistical analyses.
 
 **[AGATE](https://agate.academy/)**  
-A European research information system for the Union of German Academies of Sciences and Humanities, enhancing the visibility and accessibility of research data across Europe.
+A European research information system for the Union of German Academies of Sciences and Humanities, enhancing the visibility and accessibility of research data by science academys across Europe.
 
 ---
 
 ### Awards and Recognitions
 
-**Paul Fortier Prize for Best Emerging Scholar Presentation** (2018)  
+**Paul Fortier Prize** from the [Alliance of Digital Humanities Organizations (ADHO)](https://www.adho.org) (2018)  
 Awarded at the Digital Humanities Conference in Mexico City for presenting [IncipitSearch](https://dh2018.adho.org/en/incipitsearch-interlinking-musicological-repositories/), a platform that interlinks musicological repositories, advancing the field of digital musicology.
 
-**ADHO Bursary Award from the [Alliance of Digital Humanities Organizations (ADHO)](https://www.adho.org)** (2018)  
-Recognizing contributions to the digital humanities field and interdisciplinary research.
-
-**Youth Film Science Bionics, 2nd Place** (2011)  
-Recognized for early work in film science, awarded in a national competition that explored the intersection of science and media.
+**Jugend filmt Bionik**, 2nd Place (2011)  
+Awarded for a short movie that explored the intersection of science and media.
 
 ---
 
