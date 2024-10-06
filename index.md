@@ -21,20 +21,20 @@ Managing the [NFDI4Culture](https://nfdi4culture.de/) project, which developes a
 **Research Software Engineer @[Academy of Sciences and Literature](https://www.adwmainz.de/)** (Apr 2017 – Sep 2020)  
 Contributing to international digital humanities projects, developing software solutions for research data aggregation in musicology, and supporting academic research proposals with technical expertise.
 
-**Research Assistant at [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (Jun 2015 – Sep 2016)  
+**Research Assistant @[Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (Jun 2015 – Sep 2016)  
 Assisting in editorial work and web development for the MassDataBase in a DFG research project on early mass compositions.
 
-**Working Student at [SinnerSchrader AG](https://www.sinnerschrader.com)** (Nov 2014 – May 2015)  
+**Working Student @[SinnerSchrader AG](https://www.sinnerschrader.com)** (Nov 2014 – May 2015)  
 Supporting digital content management and web development teams in delivering innovative digital solutions for clients.
 
-**Working Student at [ZDF](https://www.zdf.de)** (May 2013 – Oct 2014)  
+**Working Student @[ZDF](https://www.zdf.de)** (May 2013 – Oct 2014)  
 Collaborating with editorial teams to curate and select music for television productions, enhancing the quality of media content.
 
 ---
 
 ### Education
 
-**PhD Candidate at [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2017 – 2024)  
+**PhD Candidate @[Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2017 – 2024)  
 Doctoral thesis submitted on “Apparat Musikwissenschaft – A History of Music Research in the German Democratic Republic.“
 
 **MA in Musicology from [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2014 – 2016)  
