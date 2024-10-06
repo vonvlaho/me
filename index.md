@@ -74,23 +74,27 @@ Awarded for a short movie that explored the intersection of science and media.
 
 ---
 
-### Publications
+### Publications & Keynotes
 
-1. Frederic von Vlahovits and Anna Neovesky, *[Interconnecting Music Repositories with Semantic Web Technologies – an RDF- and schema.org-based approach](https://doi.org/10.1093/llc/fqaa019)*, in: *Digital Scholarship in the Humanities* 36/1 (2020), p. i49–i54.
+1. Frederic von Vlahovits and Anna Neovesky, *»Digitalisierung, Daten, digitale Methoden. Zu den Chancen und Herausforderungen der digitalen Transformation im Bereich kleiner Fächer«*, Workshop »Digitalisierung in Lehre und Forschung kleiner Fächer«, 5.11.2020.
 
-2. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Leitfaden zur Zusammenarbeit](https://doi.org/10.25366/2020.93)*, in: *Brückenschläge zwischen Musikwissenschaft und Informatik. Theoretische und praktische Aspekte der Kooperation*, ed. by Stefanie Acquavella-Rauch, Andreas Münzmay, and Joachim Veit, Detmold 2020, p. 41–52.
+2. Joanna Devaney, Natalia Ermolaev, Anna Kijas, Mark Saccomano, Raffaele Viglianti, Frederic von Vlahovits, and Anna Neovesky, *[Panel »Deciphering Encoded Music: Increasing Access to Open Data Resources«](https://dblp.org/rec/conf/dihu/DevaneyEKNSVV20.html)*, DH 2020 »carrefours/intersection«, Ottawa 2020.
 
-3. Frederic von Vlahovits and Sebastian Lange, *[AGATE: A CRIS on the Way to Europe](https://www.rd-alliance.org/agate-cris-way-europe)*, Melbourne 2020.
+3. Frederic von Vlahovits and Anna Neovesky, *[Interconnecting Music Repositories with Semantic Web Technologies – an RDF- and schema.org-based approach](https://doi.org/10.1093/llc/fqaa019)*, in: *Digital Scholarship in the Humanities* 36/1 (2020), p. i49–i54.
 
-4. Frederic von Vlahovits, *Opernsplitter des 19. Jahrhunderts – Zur Agnes von Carl Krebs*, in: *Christoph Willibald Gluck, Sein Opernschaffen Bezüge, Reaktionen, Perspektiven*, ed. by Gwendolyn Döring, Mainz 2018, p. 155–166.
+4. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Leitfaden zur Zusammenarbeit](https://doi.org/10.25366/2020.93)*, in: *Brückenschläge zwischen Musikwissenschaft und Informatik. Theoretische und praktische Aspekte der Kooperation*, ed. by Stefanie Acquavella-Rauch, Andreas Münzmay, and Joachim Veit, Detmold 2020, p. 41–52.
 
-5. Frederic von Vlahovits, *Wissenstransfer über Grenzen und Zeitenwenden: Perspektiven für die Fachgeschichte der Musikwissenschaft: Die Berichte über die Musikwissenschaftlichen Arbeiten der DDR als Datenquelle künftiger Forschung*, Frankfurt/Oder 2020.
+5. Frederic von Vlahovits and Sebastian Lange, *[AGATE: A CRIS on the Way to Europe](https://www.rd-alliance.org/agate-cris-way-europe)*, Melbourne 2020.
 
-6. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Interlinking Musicological Repositories](https://dh2018.adho.org/en/incipitsearch-interlinking-musicological-repositories/)*, in: *Digital Humanities 2018 – Puentes/Bridges*, Mexico City 2018.
+6. Frederic von Vlahovits, *Wissenstransfer über Grenzen und Zeitenwenden: Perspektiven für die Fachgeschichte der Musikwissenschaft: Die Berichte über die Musikwissenschaftlichen Arbeiten der DDR als Datenquelle künftiger Forschung*, Frankfurt/Oder 2020.
 
-7. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Digitale Notensuche](https://digicademy.github.io/2017-DHA)*, in: *Digital Humanities Austria Conference*, Innsbruck 2017.
+7. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Interlinking Musicological Repositories](https://dh2018.adho.org/en/incipitsearch-interlinking-musicological-repositories/)*, in: *Digital Humanities 2018 – Puentes/Bridges*, Mexico City 2018.
 
-8. Frederic von Vlahovits et al., *[Ebenen der Nachnutzung von Forschungsdaten in der Mainzer Akademie](https://digicademy.github.io/2016-agehum-ddorf/)*, in: *AG eHumanities der Union der deutschen Akademien der Wissenschaften*, Düsseldorf 2016.
+8. Frederic von Vlahovits, *Opernsplitter des 19. Jahrhunderts – Zur Agnes von Carl Krebs*, in: *Christoph Willibald Gluck, Sein Opernschaffen Bezüge, Reaktionen, Perspektiven*, ed. by Gwendolyn Döring, Mainz 2018, p. 155–166.
+
+9. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Digitale Notensuche](https://digicademy.github.io/2017-DHA)*, in: *Digital Humanities Austria Conference*, Innsbruck 2017.
+
+10. Frederic von Vlahovits et al., *[Ebenen der Nachnutzung von Forschungsdaten in der Mainzer Akademie](https://digicademy.github.io/2016-agehum-ddorf/)*, in: *AG eHumanities der Union der deutschen Akademien der Wissenschaften*, Düsseldorf 2016.
 
 ---
 

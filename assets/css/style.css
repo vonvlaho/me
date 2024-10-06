@@ -1,52 +1,48 @@
-/* General Styling */
 body {
-    font-family: 'Lato', sans-serif; /* Sans-serif for all text */
-    color: black; /* Black text */
-    background-color: #f0f0f0; /* Light grey canvas background */
-    line-height: 1.8; /* Improved readability */
-    margin: 60px; /* Increased margin */
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: #fafafa;
+    line-height: 1.8;
+    margin: 60px;
     padding: 0;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Header Styling */
 header {
     text-align: left;
-    margin-bottom: 80px; /* Keep the bottom margin */
-    margin-left: 60px; /* Same as main content */
-    margin-right: 60px; /* Same as main content */
+    margin-bottom: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 header h1 {
-    font-family: 'Montserrat', sans-serif; /* Futura-like font for name */
-    font-size: 42px; /* Refined size */
-    font-weight: 300; /* Lighter font-weight */
-    color: #002FA7; /* Yves Klein Blue for name */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: #002FA7;
     letter-spacing: 1px;
 }
 
 header h2 {
-    font-family: 'Lato', sans-serif; /* Sans-serif for subheading */
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
-    font-weight: 300; /* Lighter font-weight */
-    color: black; /* Black for subheading */
+    font-weight: 300;
+    color: black;
 }
 
-/* Heading Styling */
 h3, h4 {
     font-family: 'Lato', sans-serif;
-    font-size: 24px; /* Uniform heading size */
-    font-weight: 300; /* Lighter font-weight for headings */
-    color: black; /* Black for all headings */
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
     text-align: left;
-    margin-bottom: 60px; /* Even larger margins for sections */
+    margin-bottom: 60px;
 }
 
-/* Link Styling */
 a {
-    color: #002FA7; /* Yves Klein Blue for links */
+    color: #002FA7;
     text-decoration: none;
 }
 
@@ -54,41 +50,50 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Section Margins */
 main {
-    margin: 0 60px; /* Larger side margins for more space */
+    margin: 0 60px;
 }
 
 section {
-    margin-bottom: 80px; /* More vertical space between sections */
+    margin-bottom: 80px;
 }
 
-/* Dotted Line Styling */
+li {
+    margin-bottom: 10px;
+}
+
+li p {
+    margin: 0;
+}
+
 hr {
     border: none;
-    border-top: 2px dotted #002FA7; /* Dotted Yves Klein Blue line */
-    margin: 60px 0; /* Space before and after the dotted lines */
+    border-top: 2px dotted #002FA7;
+    margin: 60px 0;
 }
 
-/* Mobile Responsiveness */
 @media only screen and (max-width: 768px) {
     body {
-        padding: 30px;
+        padding: 20px;
     }
 
     header h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     header h2 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     h3, h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     main {
-        margin: 0 30px;
+        margin: 0 15px;
+    }
+
+    li {
+        margin-bottom: 8px;
     }
 }
