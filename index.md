@@ -74,27 +74,39 @@ Awarded for a short movie that explored the intersection of science and media.
 
 ---
 
-### Publications & Keynotes
+### Publications
 
-1. Frederic von Vlahovits and Anna Neovesky, *»Digitalisierung, Daten, digitale Methoden. Zu den Chancen und Herausforderungen der digitalen Transformation im Bereich kleiner Fächer«*, Workshop »Digitalisierung in Lehre und Forschung kleiner Fächer«, 5.11.2020.
+#### Articles
+1. **„On 19th-century ‘Musicosmopolitanism’: Tracing the publishing entrepreneur Julius Schuberth (1804–1875)”**. In: *Transatlantic Perspectives on Hidden 19th Century Music Cultures*, edited by Stefanie Acquavella-Rauch and Nico Schüler, forthcoming Berlin 2025.
+2. Co-authored with Prof. Dr. Anna Neovesky: **„Interconnecting music repositories with semantic web technologies – an RDF- and schema.org-based approach”**. In: *Digital Scholarship in the Humanities* 36/1 (2020), pp. i49–i54. https://doi.org/10.1093/llc/fqaa019.
+3. Co-authored with Prof. Dr. Anna Neovesky: **„IncipitSearch – Leitfaden zur Zusammenarbeit”**. In: *Brückenschläge zwischen Musikwissenschaft und Informatik. Theoretische und praktische Aspekte der Kooperation*, in collaboration with the Digital Musicology Group, edited by Stefanie Acquavella-Rauch, Andreas Münzmay, and Joachim Veit, Detmold 2020 (*Musikwissenschaft: Aktuelle Perspektiven. Bericht über die Jahrestagung der Gesellschaft für Musikforschung 2019 in Paderborn und Detmold* 3), pp. 41–52. https://doi.org/10.25366/2020.93.
+4. **„Opernsplitter des 19. Jahrhunderts – Zur Agnes von Carl Krebs”**. In: *Christoph Willibald Gluck, Sein Opernschaffen Bezüge, Reaktionen, Perspektiven*, edited by Gwendolyn Döring, Mainz 2018, pp. 155–166.
 
-2. Joanna Devaney, Natalia Ermolaev, Anna Kijas, Mark Saccomano, Raffaele Viglianti, Frederic von Vlahovits, and Anna Neovesky, *[Panel »Deciphering Encoded Music: Increasing Access to Open Data Resources«](https://dblp.org/rec/conf/dihu/DevaneyEKNSVV20.html)*, DH 2020 »carrefours/intersection«, Ottawa 2020.
+#### Posters
+1. Co-authored with Sebastian Lange and Maximilian Kopp: **„AGATE: Ein Forschungsinformationssystem für offene Akademienforschung”**, Open Access Days 2020, Bielefeld, 16 September 2020. https://doi.org/10.5281/zenodo.4018506.
+2. Co-authored with Sebastian Lange: **„AGATE: A CRIS on the Way to Europe”**, 15th RDA Plenary Meeting, Melbourne, 18 March 2020. https://www.rd-alliance.org/agate-cris-way-europe.
+3. Co-authored with Prof. Dr. Anna Neovesky: **„IncipitSearch – Leitfaden zur Zusammenarbeit”**, Annual Meeting of the German Society for Musicology, Paderborn/Detmold, 13 September 2019. https://doi.org/10.25366/2020.93.
+4. Co-authored with Prof. Dr. Anna Neovesky: **„IncipitSearch – A Guide to Collaboration”**, Digital Humanities Conference 2019, Utrecht, 11 July 2019. https://doi.org/10.5281/zenodo.3349643.
+5. Co-authored with Prof. Dr. Anna Neovesky: **„IncipitSearch – Vernetzung Musikwissenschaftlicher Vorhaben”**, Digital Humanities in the German-speaking World (DHd) 2018, Cologne, 28 February 2018. https://doi.org/10.5281/zenodo.1182430.
+6. Co-authored with Prof. Dr. Anna Neovesky: **„Perspektiven digitaler Werkverzeichnisse: IncipitSearch am Beispiel der Gluck Gesamtausgabe”**, Annual Meeting of the German Society for Musicology, Kassel, 28 September 2017.
 
-3. Frederic von Vlahovits and Anna Neovesky, *[Interconnecting Music Repositories with Semantic Web Technologies – an RDF- and schema.org-based approach](https://doi.org/10.1093/llc/fqaa019)*, in: *Digital Scholarship in the Humanities* 36/1 (2020), p. i49–i54.
+---
 
-4. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Leitfaden zur Zusammenarbeit](https://doi.org/10.25366/2020.93)*, in: *Brückenschläge zwischen Musikwissenschaft und Informatik. Theoretische und praktische Aspekte der Kooperation*, ed. by Stefanie Acquavella-Rauch, Andreas Münzmay, and Joachim Veit, Detmold 2020, p. 41–52.
+### Teaching
 
-5. Frederic von Vlahovits and Sebastian Lange, *[AGATE: A CRIS on the Way to Europe](https://www.rd-alliance.org/agate-cris-way-europe)*, Melbourne 2020.
+1. **Digitale Musikwissenschaft. Das ABC der akustischen Welt**, International Summer School, Mainz 2020. https://digitale-methodik.adwmainz.net/mod5/5c/slides/digitalMusicology/.
+2. **Methods and tools for annotating music**, International Summer School, Mainz 2019. https://digitale-methodik.adwmainz.net/mod5/5c/slides/digitalMusicology/annotation/.
 
-6. Frederic von Vlahovits, *Wissenstransfer über Grenzen und Zeitenwenden: Perspektiven für die Fachgeschichte der Musikwissenschaft: Die Berichte über die Musikwissenschaftlichen Arbeiten der DDR als Datenquelle künftiger Forschung*, Frankfurt/Oder 2020.
+---
 
-7. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Interlinking Musicological Repositories](https://dh2018.adho.org/en/incipitsearch-interlinking-musicological-repositories/)*, in: *Digital Humanities 2018 – Puentes/Bridges*, Mexico City 2018.
+### Lectures
 
-8. Frederic von Vlahovits, *Opernsplitter des 19. Jahrhunderts – Zur Agnes von Carl Krebs*, in: *Christoph Willibald Gluck, Sein Opernschaffen Bezüge, Reaktionen, Perspektiven*, ed. by Gwendolyn Döring, Mainz 2018, p. 155–166.
-
-9. Frederic von Vlahovits and Anna Neovesky, *[IncipitSearch – Digitale Notensuche](https://digicademy.github.io/2017-DHA)*, in: *Digital Humanities Austria Conference*, Innsbruck 2017.
-
-10. Frederic von Vlahovits et al., *[Ebenen der Nachnutzung von Forschungsdaten in der Mainzer Akademie](https://digicademy.github.io/2016-agehum-ddorf/)*, in: *AG eHumanities der Union der deutschen Akademien der Wissenschaften*, Düsseldorf 2016.
+1. **„Digitalisierung, Daten, digitale Methoden. Zu den Chancen und Herausforderungen der digitalen Transformation im Bereich kleiner Fächer”**, Keynote (invited), Workshop „Digitalisierung in Lehre und Forschung kleiner Fächer,” Online Event, 5 November 2020. [invited]
+2. Panel: **„Deciphering Encoded Music: Increasing Access to Open Data Resources”** with Joanna Devaney, Natalia Ermolaev, Anna Kijas, Mark Saccomano, Raffaele Viglianti, Frederic von Vlahovits, DH 2020 „carrefours/intersection,” Ottawa, 20–25 July 2020 (online).
+3. **„Perspektiven für die Fachgeschichte der Musikwissenschaft: Die Berichte über die Musikwissenschaftlichen Arbeiten der Deutschen Demokratischen Republik als Datenquelle künftiger Forschung”**, Wissenstransfer über Grenzen und Zeitenwenden. Die Wissenschaftsgeschichte der Gesellschaftswissenschaften in der DDR 1970–1989, Frankfurt (Oder), 16–17 April 2020. **„Musicological Incipit Research Interlinked”**, Conference of the International Association for Music Libraries, Archives, and Documentation Centres (IAML), 27 July 2018, Leipzig (co-authored with Prof. Dr. Anna Neovesky).
+4. Digital Humanities 2018 ‘Puentes/Bridges,’ Mexico City, 26–29 June 2018: **„IncipitSearch – Interlinking Musicological Repositories”** (co-authored with Prof. Dr. Anna Neovesky). https://dh2018.adho.org/en/incipitsearch-interlinking-musicological-repositories/.
+5. Digital Humanities Austria, Innsbruck, 4–6 December 2017: **„IncipitSearch – Digitale Notensuche”** (co-authored with Prof. Dr. Anna Neovesky). https://digicademy.github.io/2017-DHA.
+6. AG eHumanities der Union der deutschen Akademien der Wissenschaften, Düsseldorf, 9 September 2016: **„Ebenen der Nachnutzung von Forschungsdaten in der Mainzer Akademie”** (co-authored with Prof. Dr. Aline Deicke et al.). https://digicademy.github.io/2016-agehum-ddorf/.
 
 ---
 
