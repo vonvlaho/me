@@ -9,7 +9,7 @@ With nearly a decade of experience in digital product management and academic re
 
 ### Experience
 
-**Product Owner @[idealo](https://www.idealo.de)** (Oct 2022 – Present)  
+**Product Owner @[idealo](https://www.idealo.de)** (Oct 2022 – Dec 2024)  
 Leading product development for one of Europe's most visited e-commerce homepage, focusing on enhancing user engagement and business growth by creating a world-class user experience.
 
 **Doctoral Fellow @[Foundation for the Study of the Communist Dictatorship](https://www.bundesstiftung-aufarbeitung.de)** (Nov 2021 – Oct 2022)  
@@ -35,7 +35,7 @@ Collaborating with editorial teams to curate and select music for television pro
 ### Education
 
 **PhD Candidate @[Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2017 – 2024)  
-Doctoral thesis submitted on “Apparat Musikwissenschaft – A History of Music Research in the German Democratic Republic.“
+Doctoral thesis on “Apparat Musikwissenschaft – A History of Music Research in the German Democratic Republic.“
 
 **MA in Musicology from [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2014 – 2016)  
 Focusing on the intersection of music history, technology, and cultural studies.
