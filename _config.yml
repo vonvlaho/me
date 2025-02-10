@@ -1,6 +1,6 @@
 theme: minima
 title: "Frederic von Vlahovits"
-description: "Researcher | Product Manager | Digital Builder"
+description: "Founder & Digital Builder"
 markdown: kramdown
 plugins:
   - jekyll-feed
