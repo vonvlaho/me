@@ -9,7 +9,7 @@ With my experience in digital product management and academic research in music 
 
 ### Experience
 
-**Founder @[Representing Artists GmbH]((https://www.representingartists.com))** (since Feb 2025)  
+**Founder @[Representing Artists GmbH](https://www.representingartists.com)** (since Feb 2025)  
 Empowering artists to focus on what truly matters: their art.
 
 **Product Owner @[idealo](https://www.idealo.de)** (Oct 2022 – Dec 2024)  
