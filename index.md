@@ -37,7 +37,7 @@ Collaborating with editorial teams to curate and select music for television pro
 
 ### Education
 
-**PhD Candidate @[Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2017 – 2024)  
+**PhD @[Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2017 – 2025)  
 Doctoral thesis on “Apparat Musikwissenschaft – A History of Music Research in the German Democratic Republic.“
 
 **MA in Musicology from [Johannes Gutenberg-University Mainz](https://www.uni-mainz.de)** (2014 – 2016)  
