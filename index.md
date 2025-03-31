@@ -3,11 +3,14 @@ layout: default
 title: Home
 ---
 
-With nearly a decade of experience in digital product management and academic research, I bridge technical innovation and the humanities, with a hands-on approach to leading teams and projects.
+With my experience in digital product management and academic research in music and film, I bridge technical innovation and the arts
 
 ---
 
 ### Experience
+
+**Founder @[Representing Artists GmbH]((https://www.representingartists.com))** (since Feb 2025)  
+Empowering artists to focus on what truly matters: their art.
 
 **Product Owner @[idealo](https://www.idealo.de)** (Oct 2022 – Dec 2024)  
 Leading product development for one of Europe's most visited e-commerce homepage, focusing on enhancing user engagement and business growth by creating a world-class user experience.
