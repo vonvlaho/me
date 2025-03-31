@@ -1,6 +1,6 @@
 theme: minima
 title: "Frederic von Vlahovits"
-description: "Founder & Digital Builder"
+description: "Founder of Representing Artists"
 markdown: kramdown
 plugins:
   - jekyll-feed
