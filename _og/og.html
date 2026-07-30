@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- Source for assets/img/og.png. Underscore directory, so Jekyll ignores it.
+     Regenerate after editing:
+
+       "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+         --headless --disable-gpu --hide-scrollbars \
+         --window-size=1200,630 --default-background-color=00000000 \
+         --screenshot=assets/img/og.png _og/og.html
+
+     Rendered in the site's own woff2 so the card matches the page. Fixed light
+     paper on purpose: link previews sit in someone else's UI, and a card that
+     follows the viewer's colour scheme is not something we can rely on. -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        @font-face {
+            font-family: "Source Serif 4";
+            font-style: normal;
+            font-weight: 200 900;
+            src: url("../assets/fonts/source-serif-4-latin-wght-normal.woff2") format("woff2");
+        }
+
+        /* Palette copied from assets/css/style.css (light scheme). A link
+           preview cannot follow the viewer's colour scheme, so it is fixed
+           here rather than inherited. Keep in sync with the stylesheet. */
+        :root {
+            --paper: #f7f4ed;
+            --ink: #14130f;
+            --ink-muted: #5e5948;
+            --rule: #ccc3af;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        html,
+        body {
+            width: 1200px;
+            height: 630px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 84px 90px 76px;
+            background: var(--paper);
+            color: var(--ink);
+            font-family: "Source Serif 4", Georgia, serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .claim {
+            font-size: 92px;
+            font-weight: 400;
+            line-height: 1.06;
+            letter-spacing: -0.023em;
+            max-width: 15ch;
+        }
+
+        .foot {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            padding-top: 30px;
+            border-top: 1px solid var(--rule);
+        }
+
+        .name {
+            font-size: 31px;
+            font-weight: 600;
+            letter-spacing: 0.004em;
+        }
+
+        .domain {
+            font-size: 25px;
+            color: var(--ink-muted);
+        }
+    </style>
+</head>
+
+<body>
+    <p class="claim">I build tools for knowledge&nbsp;work.</p>
+    <div class="foot">
+        <span class="name">Frederic von Vlahovits</span>
+        <span class="domain">vlahovits.com</span>
+    </div>
+</body>
+
+</html>

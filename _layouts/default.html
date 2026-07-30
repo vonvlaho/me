@@ -1,19 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang | default: 'en' }}">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    {%- assign page_title = page.title | default: site.title -%}
+    {%- assign page_description = page.description | default: site.description -%}
+    {%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
+    {%- assign og_image = '/assets/img/og.png' | absolute_url -%}
+
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ page_description }}">
+    <link rel="canonical" href="{{ canonical }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:locale" content="en_US">
+    <!-- Absolute URLs: several scrapers do not resolve relative image paths. -->
+    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="I build tools for knowledge work. — Frederic von Vlahovits">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:description" content="{{ page_description }}">
+    <meta name="twitter:image" content="{{ og_image }}">
+    <meta name="twitter:image:alt" content="I build tools for knowledge work. — Frederic von Vlahovits">
+
+    <link rel="icon" href="data:,">
+    <link rel="preload" href="{{ '/assets/fonts/source-serif-4-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    {%- if page.preload_italic %}
+    <!-- Only where italics carry real text (the citation lists), so pages
+         without them do not pay for a second font file. -->
+    <link rel="preload" href="{{ '/assets/fonts/source-serif-4-latin-wght-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    {%- if page.person_schema %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ site.author.name | jsonify }},
+      "jobTitle": {{ site.author.job_title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "url": {{ site.url | append: '/' | jsonify }},
+      "sameAs": [
+        {{ site.profiles.linkedin | jsonify }},
+        {{ site.profiles.github | jsonify }},
+        {{ site.profiles.orcid | jsonify }},
+        {{ site.profiles.synpose | jsonify }},
+        {{ site.profiles.representingartists | jsonify }},
+        {{ site.profiles.dblp | jsonify }}
+      ]
+    }
+    </script>
+    {%- endif %}
 </head>
 
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <h2>{{ site.description }}</h2>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    {%- assign here = page.url | replace: 'index.html', '' %}
+    <header class="topbar">
+        {%- if here == '/' %}
+        <h1 class="wordmark">Frederic von Vlahovits</h1>
+        {%- else %}
+        <p class="wordmark"><a href="{{ '/' | relative_url }}">Frederic von Vlahovits</a></p>
+        {%- endif %}
+
+        <nav class="site-nav" aria-label="Primary">
+            <ul>
+                <li><a href="{{ '/' | relative_url }}"{% if here == '/' %} aria-current="page"{% endif %}>Home</a></li>
+                <li><a href="{{ '/research/' | relative_url }}"{% if here == '/research/' %} aria-current="page"{% endif %}>Research</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
+
+    <main id="main">
         {{ content }}
     </main>
 </body>

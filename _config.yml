@@ -1,7 +1,25 @@
-theme: minima
 title: "Frederic von Vlahovits"
-description: "Founder of Representing Artists"
+description: "I build tools for knowledge work. Local, source-verified AI for confidential documents. Research software and digital infrastructure before that."
+url: "https://vlahovits.com"
+lang: en
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+
+author:
+  name: "Frederic von Vlahovits"
+  job_title: "Product Manager"
+
+# Profiles used for JSON-LD sameAs and the contact section.
+profiles:
+  linkedin: "https://www.linkedin.com/in/vonvlaho/"
+  github: "https://github.com/vonvlaho"
+  orcid: "https://orcid.org/0000-0002-8111-6405"
+  dblp: "https://dblp.org/pid/222/4406.html"
+  synpose: "https://www.synpose.com"
+  representingartists: "https://www.representingartists.com"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .jekyll-cache
+  - .sass-cache
