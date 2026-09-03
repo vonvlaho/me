@@ -3,6 +3,7 @@ layout: default
 title: "Frederic von Vlahovits"
 permalink: /
 person_schema: true
+book_schema: true
 ---
 
 <div class="row masthead">
@@ -46,6 +47,31 @@ person_schema: true
   </article>
 </section>
 
+<section class="section" aria-labelledby="book">
+  <div class="row">
+    <div class="side">
+      <h2 class="label" id="book">Book</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="text">
+      <div class="book">
+        <h3 class="book-title" lang="de">Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR</h3>
+        <p class="book-gloss">A history of music research in the German Democratic Republic</p>
+        <p class="book-cite">Peter Lang, 2026. 398 pages. Open access (CC BY 4.0). <a href="https://doi.org/10.3726/b23614">doi.org/10.3726/b23614</a></p>
+        <p>The book reconstructs how musicology in the German Democratic Republic was organised as a profession, an institution, and a field of research — who was allowed to do it, where, and on what terms. It combines analysis of the archival record with a digital content analysis of the official reports on musicological work, which documented the whole field year by year.</p>
+        <p>I built the research tool for it myself, a <a href="https://musikwissenschaft-ddr.de">digital edition</a> and analysis pipeline over the official reports, with the <a href="https://github.com/vonvlaho/bibreports">code</a> in the open. That tool is why synpose exists.</p>
+        <p class="book-links">
+          <a class="btn" href="https://www.peterlang.com/document/1670747">Read (open access)</a>
+          <a class="btn" href="https://doi.org/10.3726/b23614">DOI</a>
+          <a class="btn" href="https://www.peterlang.com/document/1670747">Print edition</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section" aria-labelledby="selected-work">
   <div class="row">
     <div class="side">
@@ -60,6 +86,16 @@ person_schema: true
     </div>
     <div class="side">
       <p class="side-meta">Oct 2022 – Dec 2024</p>
+    </div>
+  </article>
+
+  <article class="row entry">
+    <div class="text">
+      <h3 class="entry-title">Apparat Musikwissenschaft <span class="org">— Doctoral Fellow, Bundesstiftung zur Aufarbeitung der SED-Diktatur</span></h3>
+      <p>Full doctoral scholarship for the dissertation, covering the archival research and the writing of the book.</p>
+    </div>
+    <div class="side">
+      <p class="side-meta">Nov 2021 – Oct 2022</p>
     </div>
   </article>
 
@@ -97,7 +133,7 @@ person_schema: true
 <section class="section" aria-labelledby="background">
   <div class="row">
     <div class="text">
-      <p>My doctoral thesis on the history of music research in the German Democratic Republic was defended at Johannes Gutenberg University Mainz in 2025 and appears with Peter Lang in 2026.</p>
+      <p>I defended the doctoral thesis behind the book at Johannes Gutenberg University Mainz in January 2025. Before that, research software and digital infrastructure at the Academy of Sciences and Literature Mainz.</p>
       <p><a href="{{ '/research/' | relative_url }}">Full academic record, publications, and lectures</a></p>
     </div>
     <div class="side">

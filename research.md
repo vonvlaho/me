@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Research — Frederic von Vlahovits"
+title: "Research — Apparat Musikwissenschaft, open access — Frederic von Vlahovits"
 permalink: /research/
 preload_italic: true
-description: "Academic record: musicology and digital humanities. Publications, lectures, teaching, research infrastructure projects, and positions."
+description: "Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR (Peter Lang, Berlin 2026) is out in open access under CC BY 4.0. Full academic record: publications, lectures, teaching, research infrastructure projects, and positions."
 ---
 
 <div class="row masthead">
@@ -38,7 +38,7 @@ description: "Academic record: musicology and digital humanities. Publications, 
   <ul class="biblio">
     <li>
       <div class="side"><p class="side-meta">2017 – 2025</p></div>
-      <p class="cite">Doctoral thesis in musicology, <a href="https://www.uni-mainz.de">Johannes Gutenberg University Mainz</a>: „Apparat Musikwissenschaft – Eine Geschichte der Musikforschung in der DDR“. Supervisors: Stefanie Acquavella-Rauch and Klaus Pietschmann. Appears Berlin 2026, in print and open access.</p>
+      <p class="cite">Doctoral thesis in musicology, <a href="https://www.uni-mainz.de">Johannes Gutenberg University Mainz</a>: „Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR“. Supervisors: Stefanie Acquavella-Rauch and Klaus Pietschmann. Defended 17 January 2025; published by Peter Lang, Berlin 2026, in print and in open access under CC BY 4.0 (<a href="https://doi.org/10.3726/b23614">https://doi.org/10.3726/b23614</a>).</p>
     </li>
     <li>
       <div class="side"><p class="side-meta">2014 – 2016</p></div>
@@ -209,7 +209,7 @@ description: "Academic record: musicology and digital humanities. Publications, 
   <ul class="biblio">
     <li>
       <div class="side"><p class="side-meta">2026</p></div>
-      <p class="cite">„Apparat Musikwissenschaft – Eine Geschichte der Musikforschung in der DDR“, Berlin 2026, in print and open access.</p>
+      <p class="cite">„Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR“, Berlin: Peter Lang 2026 (<em>Methodology of Music Research</em> 14), 398 pp. Open access under CC BY 4.0. <a href="https://doi.org/10.3726/b23614">https://doi.org/10.3726/b23614</a>. Free PDF and ePUB, and the print edition, from the <a href="https://www.peterlang.com/document/1670747">publisher</a>. ISBN 978-3-631-94863-7 (hardcover), 978-3-631-94864-4 (ePDF), 978-3-631-94865-1 (ePUB).</p>
     </li>
   </ul>
 
