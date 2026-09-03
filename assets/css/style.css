@@ -402,6 +402,80 @@ a:focus-visible,
     border-radius: 5.5px;
 }
 
+/* --- The book -------------------------------------------------- */
+
+/* The one panel on the page. It is set off by a hairline and an inset rather
+   than a fill, so it reads as a plate in the text rather than a widget pasted
+   over it; the radius is the one the screenshot already uses. */
+.book {
+    max-width: var(--measure);
+    padding: 1.5rem 1.6rem 1.4rem;
+    border: 1px solid var(--rule);
+    border-radius: 5.5px;
+}
+
+/* German title, English page: the gloss underneath does the translating, so the
+   title itself is left alone. */
+.book-title {
+    margin: 0 0 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.24;
+    letter-spacing: -0.011em;
+    text-wrap: balance;
+}
+
+.book-gloss {
+    margin: 0 0 0.75rem;
+    font-style: italic;
+    color: var(--ink-muted);
+}
+
+/* Imprint, extent, licence, DOI — the same register as a margin note, kept in
+   the text column because it is the citation, not an annotation. Scoped to the
+   child selector so it outweighs the .book > p size below it. */
+.book > .book-cite {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--ink-muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.book > .book-cite a {
+    word-break: break-word;
+}
+
+.book > p {
+    font-size: 1.0625rem;
+}
+
+.book-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.6rem;
+    margin: 1.1rem 0 0;
+}
+
+/* Links, drawn as targets. Underline is dropped only because the border
+   already marks them; hover and focus keep both. */
+.btn {
+    display: inline-block;
+    padding: 0.28em 0.85em;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.btn:hover {
+    border-color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+}
+
 /* --- Bibliography and lists: year column, hanging indent ------- */
 
 .biblio {
@@ -480,6 +554,19 @@ a:focus-visible,
     .cite {
         text-indent: 0;
         padding-left: 0;
+    }
+
+    .book {
+        padding: 1.2rem 1.1rem;
+    }
+
+    .book-title {
+        font-size: 1.2rem;
+    }
+
+    /* Thumbs, not pointers: the pills grow to a comfortable tap target. */
+    .btn {
+        padding: 0.5em 0.95em;
     }
 }
 
@@ -562,5 +649,17 @@ a:focus-visible,
     /* A screenshot is decoration in a printed record. */
     .shot {
         display: none;
+    }
+
+    /* On paper the plate has nothing to separate itself from. */
+    .book {
+        padding: 0;
+        border: 0;
+    }
+
+    .btn {
+        padding: 0;
+        border: 0;
+        text-decoration: underline;
     }
 }

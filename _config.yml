@@ -8,6 +8,26 @@ author:
   name: "Frederic von Vlahovits"
   job_title: "Product Manager"
 
+# The dissertation. Single source for the Book JSON-LD on the home page;
+# the prose citations carry the same figures.
+book:
+  title: "Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR"
+  publisher: "Peter Lang"
+  location: "Berlin"
+  date_published: "2026"
+  pages: 398
+  language: "de"
+  doi: "10.3726/b23614"
+  doi_url: "https://doi.org/10.3726/b23614"
+  publisher_url: "https://www.peterlang.com/document/1670747"
+  licence: "https://creativecommons.org/licenses/by/4.0/"
+  series: "Methodology of Music Research"
+  volume: 14
+  isbn:
+    hardcover: "978-3-631-94863-7"
+    epdf: "978-3-631-94864-4"
+    epub: "978-3-631-94865-1"
+
 # Profiles used for JSON-LD sameAs and the contact section.
 profiles:
   linkedin: "https://www.linkedin.com/in/vonvlaho/"

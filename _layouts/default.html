@@ -61,6 +61,51 @@
     }
     </script>
     {%- endif %}
+
+    {%- if page.book_schema %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": {{ site.book.title | jsonify }},
+      "author": {
+        "@type": "Person",
+        "name": {{ site.author.name | jsonify }},
+        "sameAs": {{ site.profiles.orcid | jsonify }}
+      },
+      "isbn": [
+        {{ site.book.isbn.hardcover | jsonify }},
+        {{ site.book.isbn.epdf | jsonify }},
+        {{ site.book.isbn.epub | jsonify }}
+      ],
+      "datePublished": {{ site.book.date_published | jsonify }},
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ site.book.publisher | jsonify }}
+      },
+      "inLanguage": {{ site.book.language | jsonify }},
+      "license": {{ site.book.licence | jsonify }},
+      "isAccessibleForFree": true,
+      "numberOfPages": {{ site.book.pages }},
+      "url": {{ site.book.doi_url | jsonify }},
+      "sameAs": [
+        {{ site.book.doi_url | jsonify }},
+        {{ site.book.publisher_url | jsonify }}
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": {{ site.book.doi | jsonify }},
+        "url": {{ site.book.doi_url | jsonify }}
+      },
+      "isPartOf": {
+        "@type": "BookSeries",
+        "name": {{ site.book.series | jsonify }},
+        "volumeNumber": {{ site.book.volume }}
+      }
+    }
+    </script>
+    {%- endif %}
 </head>
 
 <body>
