@@ -64,7 +64,6 @@ book_schema: true
         <p>I built the research tool for it myself, a <a href="https://musikwissenschaft-ddr.de">digital edition</a> and analysis pipeline over the official reports, with the <a href="https://github.com/vonvlaho/bibreports">code</a> in the open. That tool is why synpose exists.</p>
         <p class="book-links">
           <a class="btn" href="https://www.peterlang.com/document/1670747">Read (open access)</a>
-          <a class="btn" href="https://doi.org/10.3726/b23614">DOI</a>
           <a class="btn" href="https://www.peterlang.com/document/1670747">Print edition</a>
         </p>
       </div>
