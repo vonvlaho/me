@@ -226,7 +226,7 @@ description: "Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in d
     </li>
     <li>
       <div class="side"><p class="side-meta">2026</p></div>
-      <p class="cite">„On 19th-century ‘Musicosmopolitanism’: Tracing the publishing entrepreneur Julius Schuberth (1804–1875)“, in: <em>Transatlantic Perspectives on Hidden Late 19th Century Music Cultures</em>, edited by Stefanie Acquavella-Rauch, Birger Petersen and Nico Schüler, Berlin 2026 (<em>Methodology of Musicology</em> 13).</p>
+      <p class="cite">„On 19th-century ‘Musicosmopolitanism’: Tracing the publishing entrepreneur Julius Schuberth (1804–1875)“, in: <em>Transatlantic Perspectives on Hidden Late 19th Century Music Cultures</em>, edited by Stefanie Acquavella-Rauch, Birger Petersen and Nico Schüler, Berlin 2026 (<em>Methodology of Music Research</em> 13).</p>
     </li>
     <li>
       <div class="side"><p class="side-meta">2020</p></div>
