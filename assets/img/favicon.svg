@@ -8,5 +8,5 @@
     }
   </style>
   <rect class="tile" x=".5" y=".5" width="63" height="63" rx="13"/>
-  <path class="letter" d="M21 15H64v6H28v8h15v6H28v29h-7z"/>
+  <path class="letter" d="M21 15H64v6H28v8H64v6H28v29h-7z"/>
 </svg>
