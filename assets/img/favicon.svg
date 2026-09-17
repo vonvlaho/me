@@ -1,4 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#fff"/>
-  <path d="M17 15h30v6H24v10h19v6H24v24h-7z" fill="#222"/>
+  <style>
+    .tile { fill: #fff; stroke: #e5e5e5; }
+    .letter { fill: #222; }
+    @media (prefers-color-scheme: dark) {
+      .tile { fill: #222; stroke: #353535; }
+      .letter { fill: #eee; }
+    }
+  </style>
+  <rect class="tile" x=".5" y=".5" width="63" height="63" rx="13"/>
+  <path class="letter" d="M21 15h25v6H28v8h15v6H28v14h-7z"/>
 </svg>
