@@ -24,11 +24,9 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
           <li><a href="#publications">Publications</a></li>
           <li><a href="#awards">Funding</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#software">Software</a></li>
           <li><a href="#teaching">Teaching</a></li>
           <li><a href="#training">Professional training</a></li>
           <li><a href="#lectures">Lectures</a></li>
-          <li><a href="#contributions">Collaboration</a></li>
           <li><a href="#service">Service</a></li>
         </ul>
       </nav>
@@ -360,24 +358,6 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   </article>
 </section>
 
-<section class="section section--flush" aria-labelledby="software">
-  <div class="row">
-    <div class="side">
-      <h2 class="label" id="software">Software development</h2>
-    </div>
-  </div>
-
-  <article class="row entry">
-    <div class="text">
-      <h3 class="entry-title">Additional research software contributions</h3>
-      <p>Development contributions to the <a href="https://corpusvitrearum.de">Corpus Vitrearum Medii Aevi Germany</a>, <a href="http://www.goethe-biographica.de">Propyläen</a>, <a href="https://sozinianer.de">Sozinianischer Briefwechsel</a> and <a href="https://kelsen.online">Hans Kelsen online</a> digital editions.</p>
-    </div>
-    <div class="side">
-      <p class="side-meta">2017 – 2020</p>
-    </div>
-  </article>
-</section>
-
 <section class="section section--flush" aria-labelledby="teaching">
   <div class="row">
     <div class="side">
@@ -451,16 +431,6 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
       <p class="cite">„Ebenen der Nachnutzung von Forschungsdaten in der Mainzer Akademie“, AG eHumanities der Union der deutschen Akademien der Wissenschaften, Düsseldorf, 9 November 2016, with Aline Deicke and others. <a href="https://digicademy.github.io/2016-agehum-ddorf/">https://digicademy.github.io/2016-agehum-ddorf/</a></p>
     </li>
   </ul>
-</section>
-
-<section class="section" aria-labelledby="contributions">
-  <div class="row">
-    <div class="side"><h2 class="label" id="contributions">Collaboration</h2></div>
-    <div class="text">
-      <p>Contributed digital concepts and development plans to successful funding proposals for the Erich Wolfgang Korngold Werkausgabe (Akademienprogramm), Die Dynamik kleiner Fächer (BMBF) and Deutsch-französische Modellkartierung kleiner Fächer (VolkswagenStiftung).</p>
-      <p>Contributed to the MA programme Digitale Methodik in den Geistes- und Kulturwissenschaften at Mainz and supervised student research assistants in digital humanities projects.</p>
-    </div>
-  </div>
 </section>
 
 <section class="section section--flush" aria-labelledby="service">
