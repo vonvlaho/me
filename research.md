@@ -27,7 +27,6 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
           <li><a href="#teaching">Teaching</a></li>
           <li><a href="#training">Professional training</a></li>
           <li><a href="#lectures">Lectures</a></li>
-          <li><a href="#service">Service</a></li>
         </ul>
       </nav>
     </details>
@@ -431,18 +430,4 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
       <p class="cite">„Ebenen der Nachnutzung von Forschungsdaten in der Mainzer Akademie“, AG eHumanities der Union der deutschen Akademien der Wissenschaften, Düsseldorf, 9 November 2016, with Aline Deicke and others. <a href="https://digicademy.github.io/2016-agehum-ddorf/">https://digicademy.github.io/2016-agehum-ddorf/</a></p>
     </li>
   </ul>
-</section>
-
-<section class="section section--flush" aria-labelledby="service">
-  <div class="row">
-    <div class="side">
-      <h2 class="label" id="service">Service and memberships</h2>
-    </div>
-    <div class="text">
-      <ul class="plain">
-        <li>Peer review for the third-party funding programme of the <a href="https://www.bundesstiftung-aufarbeitung.de">Bundesstiftung zur Aufarbeitung der SED-Diktatur</a>, the annual DHd conference, and the annual conference of the Gesellschaft für Musikforschung.</li>
-        <li>Member of the Gesellschaft für Musikforschung, group „Digitale Musikwissenschaft“, the European Association for Digital Humanities, and the Research Data Alliance.</li>
-      </ul>
-    </div>
-  </div>
 </section>
