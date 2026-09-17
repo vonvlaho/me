@@ -10,14 +10,14 @@
     {%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
     {%- assign og_image = '/assets/img/social.png' | absolute_url -%}
 
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ page_description }}">
+    <title>{{ page_title | escape }}</title>
+    <meta name="description" content="{{ page_description | escape }}">
     <link rel="canonical" href="{{ canonical }}">
 
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:title" content="{{ page_title }}">
-    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ page_title | escape }}">
+    <meta property="og:description" content="{{ page_description | escape }}">
     <meta property="og:url" content="{{ canonical }}">
     <meta property="og:locale" content="en_US">
     <!-- Absolute URLs: several scrapers do not resolve relative image paths. -->
@@ -27,8 +27,8 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Frederic von Vlahovits — Musicologist and founder in Berlin.">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page_title }}">
-    <meta name="twitter:description" content="{{ page_description }}">
+    <meta name="twitter:title" content="{{ page_title | escape }}">
+    <meta name="twitter:description" content="{{ page_description | escape }}">
     <meta name="twitter:image" content="{{ og_image }}">
     <meta name="twitter:image:alt" content="Frederic von Vlahovits — Musicologist and founder in Berlin.">
 
@@ -95,10 +95,10 @@
         "value": {{ site.book.doi | jsonify }},
         "url": {{ site.book.doi_url | jsonify }}
       },
+      "position": {{ site.book.volume }},
       "isPartOf": {
         "@type": "BookSeries",
-        "name": {{ site.book.series | jsonify }},
-        "volumeNumber": {{ site.book.volume }}
+        "name": {{ site.book.series | jsonify }}
       }
     }
     </script>
