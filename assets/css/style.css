@@ -1,665 +1,92 @@
-/* ---------------------------------------------------------------
-   vlahovits.com
-
-   One family (Source Serif 4), two files. Asymmetric two-column
-   grid: the narrow margin column carries labels, dates,
-   attributions and references; the text column is set at roughly
-   65 characters. Within a row the text comes first in source order
-   and the margin second, so the page reads in that order aloud;
-   grid placement puts the margin back on the left. Below 48rem the
-   grid collapses and the margin follows the text it annotates.
-   --------------------------------------------------------------- */
-
-@font-face {
-    font-family: "Source Serif 4";
-    font-style: normal;
-    font-weight: 200 900;
-    font-display: swap;
-    src: url("../fonts/source-serif-4-latin-wght-normal.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Source Serif 4";
-    font-style: italic;
-    font-weight: 200 900;
-    font-display: swap;
-    src: url("../fonts/source-serif-4-latin-wght-italic.woff2") format("woff2");
-}
-
+/* One system typeface, neutral ink, spacing-led hierarchy. */
 :root {
-    --serif: "Source Serif 4", Charter, "Iowan Old Style", Palatino, Georgia, serif;
-
-    /* Warm paper, warm ink, cool accent — the temperature difference is what
-       keeps the blue a spot colour. Contrast on paper: ink 16.9:1,
-       muted 6.4:1, links 9.7:1, rules 1.59:1. */
-    --paper: #f7f4ed;
-    --ink: #14130f;
-    --ink-muted: #5e5948;
-    --rule: #ccc3af;
-    --accent: #002fa7;
-
-    /* Grid. The margin carries dates and years only, so the column is sized to
-       the longest range ("Oct 2022 – Dec 2024", 133px at 0.9rem) plus air.
-       Anything else belongs in the text column. */
-    --side: 9.5rem;
-    --gutter: 2.75rem;
-    --measure: 37rem;
-    --pad: clamp(1.25rem, 6vw, 6rem);
+    color-scheme: light dark;
+    --paper: #fff;
+    --ink: #222;
+    --muted: #707070;
+    --line: #e5e5e5;
 }
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --paper: #15140f;
-        --ink: #eae6db;
-        --ink-muted: #9c9688;
-        --rule: #403b31;
-        --accent: #a8bcff;
-    }
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-html {
-    -webkit-text-size-adjust: 100%;
-}
-
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body {
-    margin: 0;
-    padding: 2.6rem var(--pad) 6rem;
-    background-color: var(--paper);
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    background: var(--paper);
     color: var(--ink);
-    font-family: var(--serif);
-    font-size: 1.1875rem;
-    line-height: 1.62;
-    hanging-punctuation: first last;
-    text-rendering: optimizeLegibility;
+    font: 400 15px/1.7 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-
-p {
-    margin: 0 0 0.7em;
-    text-wrap: pretty;
+p { margin: 0 0 0.8rem; }
+p:last-child { margin-bottom: 0; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration: underline; }
+a:focus-visible, summary:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+img { max-width: 100%; height: auto; }
+h1, h2, h3 { font-weight: 500; }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { position: static; display: block; margin-bottom: 1rem; }
+.topbar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; align-items: baseline; margin-bottom: 5rem; }
+.wordmark { font-size: 15px; font-weight: 500; margin: 0; }
+.wordmark a, .site-nav a { text-decoration: none; }
+.site-nav ul { display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; }
+.site-nav a { color: var(--muted); font-size: 13px; }
+.site-nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
+.home { max-width: 640px; padding-top: clamp(3rem, 10vh, 6rem); }
+.home-intro { max-width: 540px; }
+.home-intro p { margin-bottom: 1.25rem; }
+.intro-line { font-size: 18px; }
+.side-meta, .book-cite { font-size: 13px; color: var(--muted); }
+.page-title { font-size: 22px; font-weight: 500; line-height: 1.4; letter-spacing: -0.02em; margin: 0 0 1rem; }
+.page-lede { color: var(--muted); }
+.row { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 2rem; align-items: baseline; }
+.side { grid-column: 1; grid-row: 1; }
+.text { grid-column: 2; grid-row: 1; }
+.side-meta { margin: 0.3rem 0 0; font-size: 12px; }
+.masthead { margin-bottom: 3rem; align-items: start; }
+.page-lede { max-width: 580px; }
+.page-index { font-size: 13px; color: var(--muted); }
+.page-index summary { cursor: pointer; }
+.toc { list-style: none; margin: 0.75rem 0 0; padding: 0; font-size: 12px; line-height: 1.9; }
+.toc a { text-decoration: none; }
+.section { margin-top: 3rem; }
+.section > .row + .row, .section > .row + .biblio, .section > .biblio + .row { margin-top: 1.5rem; }
+.label { font-size: 13px; font-weight: 400; margin: 0; color: var(--muted); line-height: 1.6; }
+.subhead { font-size: 14px; font-weight: 500; margin: 0 0 0.75rem; }
+.entry-title, .book-title { font-size: 16px; line-height: 1.5; font-weight: 500; margin: 0 0 0.6rem; }
+.entry-title a { text-decoration: none; }
+.entry-title .org { display: block; font-size: 13px; font-weight: 400; color: var(--muted); margin-top: 0.3rem; }
+.book-gloss { color: var(--muted); font-size: 14px; }
+.book-links { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1rem; }
+.btn { font-size: 13px; }
+.plain { list-style: none; margin: 0; padding: 0; }
+.plain > li + li { margin-top: 0.5rem; }
+.biblio { list-style: none; margin: 0; padding: 0; }
+.biblio > li { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 2rem; align-items: baseline; margin-bottom: 1.5rem; }
+.biblio > li > .cite { grid-column: 2; grid-row: 1; }
+.cite { margin: 0; overflow-wrap: anywhere; font-size: 14px; }
+.site-footer { margin-top: 3rem; font-size: 13px; color: var(--muted); }
+.site-footer nav { display: flex; gap: 1.5rem; }
+.site-footer a { text-decoration: none; }
+@media (prefers-color-scheme: dark) {
+    :root { --paper: #181818; --ink: #e5e5e5; --muted: #a0a0a0; --line: #353535; }
+}
+@media (max-width: 600px) {
+    body { padding: 2rem 1.25rem; }
+    .topbar { margin-bottom: 3rem; }
+    .row, .biblio > li { display: block; }
+    .side { margin-bottom: 0.75rem; }
+    .entry > .side { margin-top: 0.5rem; }
+    .masthead .side { margin-top: 1.5rem; }
+    .toc { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; }
 }
-
-p:last-child {
-    margin-bottom: 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-a {
-    color: var(--accent);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.16em;
-}
-
-a:hover {
-    text-decoration-thickness: 2px;
-}
-
-a:focus-visible,
-.skip-link:focus {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
-    border-radius: 1px;
-}
-
-.skip-link {
-    position: absolute;
-    left: -9999px;
-}
-
-.skip-link:focus {
-    position: static;
-    display: inline-block;
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-}
-
-/* --- Grid ------------------------------------------------------ */
-
-/* Source order inside a row is text-then-side, so a screen reader reads the
-   entry before the notes annotating it — "IncipitSearch … Paul Fortier Prize",
-   not a floating "Paul Fortier Prize" ahead of anything to attach it to.
-   Explicit placement puts the margin back in the left column visually. */
-.row {
-    display: grid;
-    grid-template-columns: var(--side) minmax(0, var(--measure));
-    column-gap: var(--gutter);
-    align-items: baseline;
-}
-
-.side {
-    grid-column: 1;
-    grid-row: 1;
-    text-align: right;
-}
-
-.text {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.side-meta {
-    margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.45;
-    color: var(--ink-muted);
-    font-variant-numeric: tabular-nums;
-    text-wrap: balance;
-    overflow-wrap: break-word;
-}
-
-/* Metadata links: muted, underlined in their own colour. Content links keep
-   the accent. Two systems, not three. */
-.side a {
-    color: inherit;
-    text-decoration-color: currentColor;
-}
-
-.side a:hover {
-    color: var(--ink);
-}
-
-/* --- Topbar: wordmark left, navigation right ------------------- */
-
-.topbar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 2rem;
-    align-items: baseline;
-    justify-content: space-between;
-    max-width: calc(var(--side) + var(--gutter) + var(--measure));
-    margin-bottom: 4.6rem;
-}
-
-.wordmark {
-    margin: 0;
-    font-size: 1.0625rem;
-    font-weight: 600;
-    letter-spacing: 0.004em;
-    line-height: 1.3;
-}
-
-.wordmark a {
-    color: var(--ink);
-    text-decoration: none;
-}
-
-.wordmark a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.16em;
-}
-
-.site-nav ul {
-    display: flex;
-    gap: 1.4rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 0.9rem;
-}
-
-.site-nav a {
-    color: var(--ink-muted);
-    text-decoration: none;
-    padding-bottom: 0.2em;
-    border-bottom: 1px solid transparent;
-}
-
-.site-nav a:hover {
-    color: var(--ink);
-    border-bottom-color: var(--rule);
-}
-
-.site-nav a[aria-current="page"] {
-    color: var(--ink);
-    border-bottom-color: var(--accent);
-}
-
-/* --- Masthead: the claim carries the page ---------------------- */
-
-.masthead {
-    margin-bottom: 4rem;
-    align-items: start;
-}
-
-.masthead .claim {
-    margin: 0 0 1.3rem;
-    font-size: clamp(2.1rem, 5vw, 3.2rem);
-    font-weight: 400;
-    line-height: 1.08;
-    letter-spacing: -0.021em;
-}
-
-.masthead .claim .keep {
-    white-space: nowrap;
-}
-
-.masthead .lede {
-    max-width: 33rem;
-    font-size: 1.1875rem;
-}
-
-/* --- Page titles (subpages) ----------------------------------- */
-
-.page-title {
-    margin: 0 0 0.6rem;
-    font-size: clamp(1.7rem, 3.4vw, 2.2rem);
-    font-weight: 400;
-    line-height: 1.12;
-    letter-spacing: -0.016em;
-}
-
-.page-lede {
-    max-width: 33rem;
-}
-
-/* Section index: the margin cell beside the page title, used as navigation
-   on a page this long. */
-.toc {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: var(--ink-muted);
-}
-
-.toc a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.toc a:hover {
-    color: var(--ink);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.16em;
-}
-
-/* --- Sections -------------------------------------------------- */
-
-.section {
-    padding-top: 2.2rem;
-    margin-top: 3.4rem;
-    border-top: 1px solid var(--rule);
-    /* Same width as the topbar, so the rule ends with the text column instead
-       of running to the window edge — on a 2560px display that was ~1660px of
-       rule with nothing under it. */
-    max-width: calc(var(--side) + var(--gutter) + var(--measure));
-}
-
-/* Sections without a rule: the margin label already announces them. */
-.section--flush {
-    border-top: 0;
-    padding-top: 0;
-    margin-top: 2.8rem;
-}
-
-/* 11: weight, not size, separates the label from the metadata beneath it. */
-.label {
-    margin: 0;
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: var(--ink-muted);
-}
-
-.subhead {
-    margin: 0 0 0.9rem;
-    font-size: 1.0625rem;
-    font-weight: 600;
-}
-
-.section > .row + .row {
-    margin-top: 2.1rem;
-}
-
-.section > .row + .biblio,
-.section > .biblio + .row {
-    margin-top: 1.6rem;
-}
-
-.plain {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    max-width: var(--measure);
-    font-size: 1.0625rem;
-}
-
-.plain > li + li {
-    margin-top: 0.35rem;
-}
-
-/* --- Entries --------------------------------------------------- */
-
-.entry-title {
-    margin: 0 0 0.35rem;
-    font-size: 1.1875rem;
-    font-weight: 600;
-    line-height: 1.35;
-    letter-spacing: -0.003em;
-}
-
-.entry-title a {
-    color: var(--ink);
-    text-decoration-color: var(--accent);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.18em;
-}
-
-.entry-title a:hover {
-    color: var(--accent);
-}
-
-.entry-title .org {
-    font-weight: 400;
-    font-size: 0.95em;
-    color: var(--ink-muted);
-}
-
-.text > p {
-    max-width: var(--measure);
-    font-size: 1.0625rem;
-}
-
-/* The one deviation from the rhythm, and it earns it: synpose is the current
-   work, set larger and carrying the screenshot. Nothing else on the page
-   gets a size of its own. */
-.entry--feature {
-    margin-bottom: 0.6rem;
-}
-
-.entry--feature .entry-title {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    letter-spacing: -0.014em;
-}
-
-.entry--feature .text > p {
-    font-size: 1.125rem;
-}
-
-/* The capture is masked to the window with transparent corners, so the frame
-   here is a hairline in the same colour as the section rules, and the radius
-   matches the mask (22px at 2368px wide → 5.5px at the 592px display width). */
-.shot {
-    display: block;
-    width: 100%;
-    max-width: var(--measure);
-    margin-top: 1.2rem;
-    border: 1px solid var(--rule);
-    border-radius: 5.5px;
-}
-
-/* --- The book -------------------------------------------------- */
-
-/* The one panel on the page. It is set off by a hairline and an inset rather
-   than a fill, so it reads as a plate in the text rather than a widget pasted
-   over it; the radius is the one the screenshot already uses. */
-.book {
-    max-width: var(--measure);
-    padding: 1.5rem 1.6rem 1.4rem;
-    border: 1px solid var(--rule);
-    border-radius: 5.5px;
-}
-
-/* German title, English page: the gloss underneath does the translating, so the
-   title itself is left alone. */
-.book-title {
-    margin: 0 0 0.3rem;
-    font-size: 1.3rem;
-    font-weight: 600;
-    line-height: 1.24;
-    letter-spacing: -0.011em;
-    text-wrap: balance;
-}
-
-.book-gloss {
-    margin: 0 0 0.75rem;
-    font-style: italic;
-    color: var(--ink-muted);
-}
-
-/* Imprint, extent, licence, DOI — the same register as a margin note, kept in
-   the text column because it is the citation, not an annotation. Scoped to the
-   child selector so it outweighs the .book > p size below it. */
-.book > .book-cite {
-    margin: 0 0 1rem;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: var(--ink-muted);
-    font-variant-numeric: tabular-nums;
-}
-
-.book > .book-cite a {
-    word-break: break-word;
-}
-
-.book > p {
-    font-size: 1.0625rem;
-}
-
-.book-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem 0.6rem;
-    margin: 1.1rem 0 0;
-}
-
-/* Links, drawn as targets. Underline is dropped only because the border
-   already marks them; hover and focus keep both. */
-.btn {
-    display: inline-block;
-    padding: 0.28em 0.85em;
-    border: 1px solid var(--rule);
-    border-radius: 999px;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    text-decoration: none;
-}
-
-.btn:hover {
-    border-color: var(--accent);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.16em;
-}
-
-/* --- Bibliography and lists: year column, hanging indent ------- */
-
-.biblio {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.biblio > li {
-    display: grid;
-    grid-template-columns: var(--side) minmax(0, var(--measure));
-    column-gap: var(--gutter);
-    align-items: baseline;
-    margin-bottom: 1.3rem;
-}
-
-.biblio > li:last-child {
-    margin-bottom: 0;
-}
-
-.biblio > li > .cite {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.cite {
-    font-size: 1.0625rem;
-    text-indent: -1.15em;
-    padding-left: 1.15em;
-    text-wrap: pretty;
-}
-
-.cite a {
-    word-break: break-word;
-}
-
-/* --- Narrow viewports: margin notes collapse inline ------------ */
-
-@media (max-width: 48rem) {
-    :root {
-        --side: 0;
-        --gutter: 0;
-    }
-
-    body {
-        padding-top: 1.8rem;
-        font-size: 1.0625rem;
-    }
-
-    .row,
-    .biblio > li {
-        display: block;
-    }
-
-    /* Source order is text-then-side in entries, so the collapsed margin reads
-       as a note under what it annotates; in the bibliographies the cell comes
-       first, so the year keeps leading its citation. */
-    .side {
-        text-align: left;
-        margin-top: 0.6rem;
-    }
-
-    /* Nothing to annotate: a section-label row is a heading, not a note. */
-    .row:not(:has(.text)) > .side {
-        margin-top: 0;
-    }
-
-    .topbar {
-        margin-bottom: 3rem;
-    }
-
-    .entry--feature .entry-title {
-        font-size: 1.3rem;
-    }
-
-    .cite {
-        text-indent: 0;
-        padding-left: 0;
-    }
-
-    .book {
-        padding: 1.2rem 1.1rem;
-    }
-
-    .book-title {
-        font-size: 1.2rem;
-    }
-
-    /* Thumbs, not pointers: the pills grow to a comfortable tap target. */
-    .btn {
-        padding: 0.5em 0.95em;
-    }
-}
-
-/* --- Print: /research/ gets printed and PDF'd as a CV ------------ */
-
 @media print {
-    @page {
-        margin: 18mm 16mm;
-    }
-
-    /* Paper supplies its own colour. Printing the warm ground wastes ink and
-       drops contrast on a mono printer. Blue prints as indistinct grey, so the
-       accent collapses into ink and the underline carries the link. */
-    :root {
-        --paper: #fff;
-        --ink: #000;
-        --ink-muted: #333;
-        --rule: #999;
-        --accent: #000;
-    }
-
-    body {
-        padding: 0;
-        background: var(--paper);
-        color: var(--ink);
-        font-size: 10.5pt;
-        line-height: 1.5;
-    }
-
-    /* Navigation cannot be followed on paper. */
-    .site-nav,
-    .skip-link {
-        display: none;
-    }
-
-    .topbar {
-        margin-bottom: 1.4rem;
-    }
-
-    a,
-    .entry-title a,
-    .wordmark a {
-        color: var(--ink);
-        text-decoration: underline;
-    }
-
-    .side-meta,
-    .label,
-    .entry-title .org {
-        color: var(--ink-muted);
-    }
-
-    .section {
-        max-width: none;
-        border-top: 1px solid var(--rule);
-        margin-top: 1.6rem;
-        padding-top: 1.1rem;
-    }
-
-    /* A year stranded at the foot of one page with its citation on the next is
-       the failure this guards against. */
-    .biblio > li,
-    .entry,
-    .row {
-        break-inside: avoid;
-    }
-
-    h1,
-    h2,
-    h3,
-    .subhead,
-    .label {
-        break-after: avoid;
-    }
-
-    .section {
-        break-before: auto;
-    }
-
-    /* A screenshot is decoration in a printed record. */
-    .shot {
-        display: none;
-    }
-
-    /* On paper the plate has nothing to separate itself from. */
-    .book {
-        padding: 0;
-        border: 0;
-    }
-
-    .btn {
-        padding: 0;
-        border: 0;
-        text-decoration: underline;
-    }
+    :root { --paper: #fff; --ink: #000; --muted: #444; --line: #ccc; }
+    @page { margin: 18mm 16mm; }
+    body { padding: 0; font-size: 10.5pt; }
+    .site-nav, .skip-link, .site-footer, .page-index { display: none; }
+    .topbar { margin-bottom: 2rem; }
+    .section { margin-top: 1.5rem; }
+    .biblio > li, .entry { break-inside: avoid; }
+    h1, h2, h3 { break-after: avoid; }
 }

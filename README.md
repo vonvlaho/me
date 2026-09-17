@@ -1,7 +1,11 @@
 # vlahovits.com
 
-The personal site of Frederic von Vlahovits, at [vlahovits.com](https://vlahovits.com). Two pages: a homepage that states what I build and what I am building now, and `/research` with the complete academic record. The homepage is the positioning; the research page is the evidence behind it.
+The personal site of Frederic von Vlahovits, at [vlahovits.com](https://vlahovits.com). Three pages: a brief introduction, `/work` for product management and ventures, and `/research` for the research programme and detailed academic record.
 
-Jekyll with kramdown, one layout, one hand-written stylesheet, no theme and no plugins. Pages are `.md` files containing semantic HTML where the structure needs it. `bundle install` once, then `bundle exec jekyll serve` to work on it locally. Assets are two self-hosted woff2 files under `assets/fonts/`, the stylesheet, and one screenshot, which is lazy-loaded. No third-party host is contacted at any point — no CDN, no analytics, no cookies, no JavaScript.
+Jekyll with kramdown, one layout, one stylesheet, no theme and no plugins. Pages are `.md` files containing semantic HTML where needed. Run `bundle install` once, then `bundle exec jekyll serve` for local development. The pages use system fonts and local assets: no CDN, analytics, cookies or JavaScript.
 
-Three decisions worth naming. The layout is an asymmetric two-column grid borrowed from scholarly typesetting: a narrow margin column that carries dates and years only, and a text column set at roughly sixty-five characters — on `/research` the same grid doubles as a bibliography with a right-aligned year column and hanging indents. Within an entry the text comes first in source order and the margin second, so a screen reader reads the entry before its annotation, and CSS grid puts the margin back on the left. Everything is set in one family, Source Serif 4, which keeps the system to two font files. Deployment runs through GitHub Actions rather than the native Pages build, because that build ignores the Gemfile and pins its own Jekyll 3.10; building from this repo's Gemfile means local and production are the same Jekyll, so the Pages source must stay set to "GitHub Actions".
+The design uses one system sans-serif typeface, a grayscale palette and spacing for hierarchy. Work and Research have a narrow column for labels and dates; on mobile everything becomes a single column. Section indexes use native disclosures. Deployment runs through GitHub Actions using the repo's Gemfile, so the Pages source must stay set to "GitHub Actions".
+
+Before opening a PR, run `bundle exec jekyll build --trace` and `python3 scripts/check_site.py`. Pull requests run these checks without deploying. Publishing remains tied to pushes to `master`.
+
+The text-only social card is generated with `python3 scripts/generate_social_card.py` on macOS (requires Pillow). Its PNG is committed; no image-generation dependency is needed to build the site.

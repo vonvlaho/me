@@ -8,7 +8,7 @@
     {%- assign page_title = page.title | default: site.title -%}
     {%- assign page_description = page.description | default: site.description -%}
     {%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
-    {%- assign og_image = '/assets/img/og.png' | absolute_url -%}
+    {%- assign og_image = '/assets/img/social.png' | absolute_url -%}
 
     <title>{{ page_title }}</title>
     <meta name="description" content="{{ page_description }}">
@@ -25,20 +25,14 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="I build tools for knowledge work. — Frederic von Vlahovits">
+    <meta property="og:image:alt" content="Frederic von Vlahovits — Musicologist and founder in Berlin.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page_title }}">
     <meta name="twitter:description" content="{{ page_description }}">
     <meta name="twitter:image" content="{{ og_image }}">
-    <meta name="twitter:image:alt" content="I build tools for knowledge work. — Frederic von Vlahovits">
+    <meta name="twitter:image:alt" content="Frederic von Vlahovits — Musicologist and founder in Berlin.">
 
-    <link rel="icon" href="data:,">
-    <link rel="preload" href="{{ '/assets/fonts/source-serif-4-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-    {%- if page.preload_italic %}
-    <!-- Only where italics carry real text (the citation lists), so pages
-         without them do not pay for a second font file. -->
-    <link rel="preload" href="{{ '/assets/fonts/source-serif-4-latin-wght-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-    {%- endif %}
+    <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
     {%- if page.person_schema %}
@@ -54,10 +48,13 @@
         {{ site.profiles.linkedin | jsonify }},
         {{ site.profiles.github | jsonify }},
         {{ site.profiles.orcid | jsonify }},
-        {{ site.profiles.synpose | jsonify }},
-        {{ site.profiles.representingartists | jsonify }},
         {{ site.profiles.dblp | jsonify }}
-      ]
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Representing Artists GmbH",
+        "url": {{ site.profiles.representingartists | jsonify }}
+      }
     }
     </script>
     {%- endif %}
@@ -108,7 +105,7 @@
     {%- endif %}
 </head>
 
-<body>
+<body class="{% if page.url == '/' %}home{% else %}interior{% endif %}">
     <a class="skip-link" href="#main">Skip to content</a>
 
     {%- assign here = page.url | replace: 'index.html', '' %}
@@ -121,7 +118,7 @@
 
         <nav class="site-nav" aria-label="Primary">
             <ul>
-                <li><a href="{{ '/' | relative_url }}"{% if here == '/' %} aria-current="page"{% endif %}>Home</a></li>
+                <li><a href="{{ '/work/' | relative_url }}"{% if here == '/' %} id="selected-work"{% endif %}{% if here == '/work/' %} aria-current="page"{% endif %}>Work</a></li>
                 <li><a href="{{ '/research/' | relative_url }}"{% if here == '/research/' %} aria-current="page"{% endif %}>Research</a></li>
             </ul>
         </nav>
@@ -130,6 +127,13 @@
     <main id="main">
         {{ content }}
     </main>
+    <footer class="site-footer" id="contact">
+        <nav aria-label="Elsewhere">
+            <a href="{{ site.profiles.linkedin }}">LinkedIn</a>
+            <a href="{{ site.profiles.github }}">GitHub</a>
+            <a href="{{ site.profiles.orcid }}">ORCID</a>
+        </nav>
+    </footer>
 </body>
 
 </html>
