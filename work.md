@@ -19,7 +19,6 @@ description: "Product management and venture building: synpose, idealo, Represen
           <li><a href="#idealo">idealo</a></li>
           <li><a href="#artists">Representing Artists</a></li>
           <li><a href="#infrastructure">Infrastructure</a></li>
-          <li><a href="#people">Working with people</a></li>
         </ul>
       </nav>
     </details>
@@ -93,16 +92,4 @@ description: "Product management and venture building: synpose, idealo, Represen
       <p class="side-meta">Apr 2017 – Sep 2020</p>
     </div>
   </article>
-</section>
-
-<section class="section" aria-labelledby="people">
-  <div class="row">
-    <div class="side">
-      <h2 class="label" id="people">Working with people</h2>
-    </div>
-    <div class="text">
-      <p><a href="https://www.linkedin.com/in/vonvlaho/details/recommendations/">Recommendations from my idealo colleagues</a>.</p>
-      <p>Mentor, Digital Literacy Program at <a href="https://www.redi-school.org">ReDI School of Digital Integration</a>, October 2023 – June 2024.</p>
-    </div>
-  </div>
 </section>
