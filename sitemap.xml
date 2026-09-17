@@ -4,6 +4,8 @@ permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>{{ '/' | absolute_url }}</loc></url>
-  <url><loc>{{ '/research/' | absolute_url }}</loc></url>
+  {% assign pages = site.pages | sort: 'url' %}
+  {% for page in pages %}{% if page.layout == 'default' %}
+  <url><loc>{{ page.url | absolute_url | xml_escape }}</loc></url>
+  {% endif %}{% endfor %}
 </urlset>

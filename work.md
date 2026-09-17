@@ -2,7 +2,7 @@
 layout: default
 title: "Work — Frederic von Vlahovits"
 permalink: /work/
-description: "Product management and venture building: synpose, idealo, Representing Artists and research software. Work by Frederic von Vlahovits."
+description: "Product management and venture building: synpose, Representing Artists, idealo and research software. Work by Frederic von Vlahovits."
 ---
 
 <div class="row masthead">
@@ -16,8 +16,8 @@ description: "Product management and venture building: synpose, idealo, Represen
       <nav aria-label="Sections on this page">
         <ul class="toc">
           <li><a href="#synpose">synpose</a></li>
-          <li><a href="#idealo">idealo</a></li>
           <li><a href="#artists">Representing Artists</a></li>
+          <li><a href="#idealo">idealo</a></li>
           <li><a href="#infrastructure">Infrastructure</a></li>
         </ul>
       </nav>
@@ -40,19 +40,6 @@ description: "Product management and venture building: synpose, idealo, Represen
   </div>
 </section>
 
-<section class="section" aria-labelledby="idealo">
-  <div class="row">
-    <div class="side">
-      <h2 class="label" id="idealo">idealo</h2>
-      <p class="side-meta">Oct 2022 – Dec 2024</p>
-    </div>
-    <div class="text">
-      <h3 class="entry-title">Product Owner, homepage and header</h3>
-      <p>I led strategy, discovery and delivery for the entry point used by millions of shoppers across Europe, working with a cross-functional team.</p>
-    </div>
-  </div>
-</section>
-
 <section class="section" aria-labelledby="artists">
   <div class="row">
     <div class="side">
@@ -62,6 +49,19 @@ description: "Product management and venture building: synpose, idealo, Represen
     <div class="text">
       <h3 class="entry-title"><a href="https://www.representingartists.com">Co-Founder &amp; CEO</a></h3>
       <p>A Berlin agency for actors, directors, writers and costume designers, co-founded with Matthias Rempe.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="idealo">
+  <div class="row">
+    <div class="side">
+      <h2 class="label" id="idealo">idealo</h2>
+      <p class="side-meta">Oct 2022 – Dec 2024</p>
+    </div>
+    <div class="text">
+      <h3 class="entry-title">Product Owner, homepage and header</h3>
+      <p>I led strategy, discovery and delivery for the entry point used by millions of shoppers across Europe, working with a cross-functional team.</p>
     </div>
   </div>
 </section>

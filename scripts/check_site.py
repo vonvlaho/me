@@ -1,9 +1,10 @@
 """Check the built site's local links, fragment targets and page metadata."""
 
 import json
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import unquote, urljoin, urlsplit
+from urllib.parse import parse_qs, unquote, urljoin, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1] / "_site"
@@ -19,7 +20,9 @@ class Page(HTMLParser):
         self.errors = []
         self.h1_count = 0
         self.description = False
-        self.canonical = False
+        self.canonical = None
+        self.stylesheets = []
+        self.label_ids = set()
         self.json_text = None
         self.feed(path.read_text())
 
@@ -34,7 +37,10 @@ class Page(HTMLParser):
         if tag == "meta" and attrs.get("name") == "description":
             self.description = bool(attrs.get("content"))
         if tag == "link" and attrs.get("rel") == "canonical":
-            self.canonical = bool(attrs.get("href"))
+            self.canonical = attrs.get("href")
+        if tag == "link" and attrs.get("rel") == "stylesheet":
+            self.stylesheets.append(attrs.get("href", ""))
+        self.label_ids.update(attrs.get("aria-labelledby", "").split())
         for attr in ("href", "src"):
             if attrs.get(attr):
                 self.links.append(attrs[attr])
@@ -64,6 +70,10 @@ def main():
         relative = path.relative_to(ROOT)
         if page.h1_count != 1 or not page.description or not page.canonical:
             page.errors.append("Expected one h1, a description and a canonical URL")
+        for missing in page.label_ids - page.ids:
+            page.errors.append(f"Missing accessible label: {missing}")
+        if not page.stylesheets or any(not parse_qs(urlsplit(url).query).get("v") for url in page.stylesheets):
+            page.errors.append("Expected a versioned stylesheet URL")
         for link in page.links:
             target = urlsplit(urljoin(f"{ORIGIN}/{relative}", link))
             if target.scheme not in ("http", "https") or target.netloc != urlsplit(ORIGIN).netloc:
@@ -77,9 +87,20 @@ def main():
                 page.errors.append(f"Missing fragment: {link}")
         for error in page.errors:
             print(f"{relative}: {error}")
-    if any(p.errors for p in pages.values()):
+    sitemap_errors = []
+    try:
+        sitemap = ET.parse(ROOT / "sitemap.xml")
+        urls = [node.text for node in sitemap.findall("{*}url/{*}loc")]
+        expected = {page.canonical for page in pages.values()}
+        if len(urls) != len(set(urls)) or set(urls) != expected:
+            sitemap_errors.append("Sitemap must list every page's canonical URL exactly once")
+    except (OSError, ET.ParseError) as exc:
+        sitemap_errors.append(f"Invalid sitemap: {exc}")
+    for error in sitemap_errors:
+        print(error)
+    if sitemap_errors or any(p.errors for p in pages.values()):
         raise SystemExit(1)
-    print(f"Checked {len(pages)} pages: local links, fragments, headings, metadata and JSON-LD.")
+    print(f"Checked {len(pages)} pages: local links, labels, headings, metadata, JSON-LD, stylesheet versions and sitemap.")
 
 
 if __name__ == "__main__":

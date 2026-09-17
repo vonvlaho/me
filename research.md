@@ -24,12 +24,9 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
           <li><a href="#publications">Publications</a></li>
           <li><a href="#awards">Funding</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#software">Software</a></li>
           <li><a href="#teaching">Teaching</a></li>
           <li><a href="#training">Professional training</a></li>
           <li><a href="#lectures">Lectures</a></li>
-          <li><a href="#contributions">Collaboration</a></li>
-          <li><a href="#service">Service</a></li>
         </ul>
       </nav>
     </details>
@@ -166,13 +163,13 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <ul class="biblio">
     <li>
       <div class="side"><p class="side-meta">2026</p></div>
-      <p class="cite"><em>Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR</em>, Berlin: Peter Lang 2026 (<em>Methodology of Music Research</em> 14), 398 pp. Open access under CC BY 4.0. <a href="https://doi.org/10.3726/b23614">https://doi.org/10.3726/b23614</a>. Free PDF and ePUB, and the print edition, from the <a href="https://www.peterlang.com/document/1670747">publisher</a>. ISBN 978-3-631-94863-7 (hardcover), 978-3-631-94864-4 (ePDF), 978-3-631-94865-1 (ePUB).</p>
+      <p class="cite"><em>Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR</em>, Berlin: Peter Lang 2026 (<em>Methodology of Music Research</em> 14), 398 pp. Open access under CC BY 4.0. <a href="https://doi.org/10.3726/b23614">https://doi.org/10.3726/b23614</a>. Free PDF and ePUB; print edition available from the <a href="https://www.peterlang.com/document/1670747">publisher</a>. ISBN 978-3-631-94863-7 (hardcover), 978-3-631-94864-4 (ePDF), 978-3-631-94865-1 (ePUB).</p>
     </li>
   </ul>
 
   <div class="row">
     <div class="side">
-      <h3 class="subhead">Articles</h3>
+      <h3 class="subhead">Articles and chapters</h3>
     </div>
   </div>
 
@@ -183,7 +180,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
     </li>
     <li>
       <div class="side"><p class="side-meta">2026</p></div>
-      <p class="cite" id="schuberth">„On Nineteenth-Century ‘Musicosmopolitanism’: Tracing the Publishing Entrepreneur Julius Schuberth (1804–1875)“, in: <em>Transatlantic Perspectives on Hidden Late 19th Century Music Cultures</em>, edited by Stefanie Acquavella-Rauch, Birger Petersen and Nico Schüler, Berlin 2026 (<em>Methodology of Music Research</em> 13), pp. 145–158. <a href="https://doi.org/10.3726/b23824">Volume DOI</a>.</p>
+      <p class="cite" id="schuberth">„On Nineteenth-Century ‘Musicosmopolitanism’: Tracing the Publishing Entrepreneur Julius Schuberth (1804–1875)“, in: <em>Transatlantic Perspectives on Hidden Late 19th Century Music Cultures</em>, edited by Stefanie Acquavella-Rauch, Birger Petersen and Nico Schüler, Berlin: Peter Lang 2026 (<em>Methodology of Music Research</em> 13), pp. 145–158. <a href="https://doi.org/10.3726/b23824">Volume DOI</a>.</p>
     </li>
     <li>
       <div class="side"><p class="side-meta">2021</p></div>
@@ -191,11 +188,11 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
     </li>
     <li>
       <div class="side"><p class="side-meta">2020</p></div>
-      <p class="cite">With Anna Neovesky: „IncipitSearch – Leitfaden zur Zusammenarbeit“, in: <em>Brückenschläge zwischen Musikwissenschaft und Informatik. Theoretische und praktische Aspekte der Kooperation</em>, in collaboration with the Digital Musicology Group, edited by Stefanie Acquavella-Rauch, Andreas Münzmay and Joachim Veit, Detmold 2020 (<em>Musikwissenschaft: Aktuelle Perspektiven. Bericht über die Jahrestagung der Gesellschaft für Musikforschung 2019 in Paderborn und Detmold</em> 3), pp. 47–52. <a href="https://doi.org/10.25366/2020.93">https://doi.org/10.25366/2020.93</a></p>
+      <p class="cite">With Anna Neovesky: „IncipitSearch – Leitfaden zur Zusammenarbeit“, in: <em>Brückenschläge zwischen Musikwissenschaft und Informatik. Theoretische und praktische Aspekte der Kooperation</em>, in collaboration with the Digital Musicology Group, edited by Stefanie Acquavella-Rauch, Andreas Münzmay and Joachim Veit, Detmold: Musikwissenschaftliches Seminar der Universität Paderborn und der Hochschule für Musik Detmold 2020 (<em>Musikwissenschaft: Aktuelle Perspektiven. Bericht über die Jahrestagung der Gesellschaft für Musikforschung 2019 in Paderborn und Detmold</em> 3), pp. 47–52. <a href="https://doi.org/10.25366/2020.93">https://doi.org/10.25366/2020.93</a></p>
     </li>
     <li>
       <div class="side"><p class="side-meta">2018</p></div>
-      <p class="cite">„Opernsplitter des 19. Jahrhunderts – Zur Agnes von Carl Krebs“, in: <em>Christoph Willibald Gluck. Sein Opernschaffen – Bezüge, Reaktionen, Perspektiven</em>, edited by Gwendolyn Döring, Mainz 2018, pp. 155–166.</p>
+      <p class="cite">„Opernsplitter des 19. Jahrhunderts – Zur Agnes von Carl Krebs“, in: <em>Christoph Willibald Gluck. Sein Opernschaffen – Bezüge, Reaktionen, Perspektiven</em>, edited by Gwendolyn Döring, Mainz: Are Musik Verlag 2018, pp. 155–166.</p>
     </li>
   </ul>
 
@@ -295,6 +292,16 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
 
   <article class="row entry">
     <div class="text">
+      <h3 class="entry-title"><a href="https://musikwissenschaft-ddr.de">Musikwissenschaft-DDR</a></h3>
+      <p>Digital edition and NLP tools accompanying the monograph. <a href="https://doi.org/10.5281/zenodo.22296464">Software and bibliographic data, version 1.1.0</a> · <a href="https://github.com/vonvlaho/bibreports">Source code</a>.</p>
+    </div>
+    <div class="side">
+      <p class="side-meta">2021 – 2026</p>
+    </div>
+  </article>
+
+  <article class="row entry">
+    <div class="text">
       <h3 class="entry-title"><a href="https://nfdi4culture.de">NFDI4Culture</a></h3>
       <p>Led the coordination office and managed portal development for the national research data consortium for cultural heritage.</p>
     </div>
@@ -310,6 +317,16 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
     </div>
     <div class="side">
       <p class="side-meta">2020 – 2021</p>
+    </div>
+  </article>
+
+  <article class="row entry">
+    <div class="text">
+      <h3 class="entry-title"><a href="https://agate.academy">AGATE</a></h3>
+      <p>Contributed to the design and development of a European research information system for the Union of German Academies.</p>
+    </div>
+    <div class="side">
+      <p class="side-meta">2018 – 2020</p>
     </div>
   </article>
 
@@ -337,44 +354,6 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
       <p>Contributed to the design and development of a portal documenting small academic disciplines in Germany.</p>
     </div>
     <div class="side"><p class="side-meta">2017 – 2020</p></div>
-  </article>
-
-  <article class="row entry">
-    <div class="text">
-      <h3 class="entry-title"><a href="https://agate.academy">AGATE</a></h3>
-      <p>Contributed to the design and development of a European research information system for the Union of German Academies.</p>
-    </div>
-    <div class="side">
-      <p class="side-meta">2018 – 2020</p>
-    </div>
-  </article>
-
-  <article class="row entry">
-    <div class="text">
-      <h3 class="entry-title"><a href="https://musikwissenschaft-ddr.de">Musikwissenschaft-DDR</a></h3>
-      <p>Digital edition and NLP tools accompanying the monograph. <a href="https://doi.org/10.5281/zenodo.22296464">Software and bibliographic data, version 1.1.0</a> · <a href="https://github.com/vonvlaho/bibreports">Source code</a>.</p>
-    </div>
-    <div class="side">
-      <p class="side-meta">2021 – 2026</p>
-    </div>
-  </article>
-</section>
-
-<section class="section section--flush" aria-labelledby="software">
-  <div class="row">
-    <div class="side">
-      <h2 class="label" id="software">Software development</h2>
-    </div>
-  </div>
-
-  <article class="row entry">
-    <div class="text">
-      <h3 class="entry-title">Additional research software contributions</h3>
-      <p>Development contributions to the <a href="https://corpusvitrearum.de">Corpus Vitrearum Medii Aevi Germany</a>, <a href="http://www.goethe-biographica.de">Propyläen</a>, <a href="https://sozinianer.de">Sozinianischer Briefwechsel</a> and <a href="https://kelsen.online">Hans Kelsen online</a> digital editions.</p>
-    </div>
-    <div class="side">
-      <p class="side-meta">2017 – 2020</p>
-    </div>
   </article>
 </section>
 
@@ -451,28 +430,4 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
       <p class="cite">„Ebenen der Nachnutzung von Forschungsdaten in der Mainzer Akademie“, AG eHumanities der Union der deutschen Akademien der Wissenschaften, Düsseldorf, 9 November 2016, with Aline Deicke and others. <a href="https://digicademy.github.io/2016-agehum-ddorf/">https://digicademy.github.io/2016-agehum-ddorf/</a></p>
     </li>
   </ul>
-</section>
-
-<section class="section" aria-labelledby="contributions">
-  <div class="row">
-    <div class="side"><h2 class="label" id="contributions">Collaboration</h2></div>
-    <div class="text">
-      <p>Contributed digital concepts and development plans to successful funding proposals for the Erich Wolfgang Korngold Werkausgabe (Akademienprogramm), Die Dynamik kleiner Fächer (BMBF) and Deutsch-französische Modellkartierung kleiner Fächer (VolkswagenStiftung).</p>
-      <p>Contributed to the MA programme Digitale Methodik in den Geistes- und Kulturwissenschaften at Mainz and supervised student research assistants in digital humanities projects.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section section--flush" aria-labelledby="service">
-  <div class="row">
-    <div class="side">
-      <h2 class="label" id="service">Service and memberships</h2>
-    </div>
-    <div class="text">
-      <ul class="plain">
-        <li>Peer review for the third-party funding programme of the <a href="https://www.bundesstiftung-aufarbeitung.de">Bundesstiftung zur Aufarbeitung der SED-Diktatur</a>, the annual DHd conference, and the annual conference of the Gesellschaft für Musikforschung.</li>
-        <li>Member of the Gesellschaft für Musikforschung, group „Digitale Musikwissenschaft“, the European Association for Digital Humanities, and the Research Data Alliance.</li>
-      </ul>
-    </div>
-  </div>
 </section>
