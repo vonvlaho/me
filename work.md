@@ -8,7 +8,7 @@ description: "Product management and venture building: synpose, idealo, Represen
 <div class="row masthead">
   <div class="text">
     <h1 class="page-title">Work</h1>
-    <p class="page-lede">From research tools to consumer products. I take ideas through discovery, design and delivery.</p>
+    <p class="page-lede">I build products, from research tools to consumer platforms.</p>
   </div>
   <div class="side">
     <details class="page-index">
@@ -35,7 +35,7 @@ description: "Product management and venture building: synpose, idealo, Represen
     <div class="text">
       <h3 class="entry-title"><a href="https://www.synpose.com">Product Lead</a></h3>
       <p>Local AI for confidential documents, with answers cited to page and paragraph.</p>
-      <p>I lead positioning, product, UX, engineering and launch with our team at Representing Artists. I secured €40,000 through MIZ Babelsberg’s Media Founders Program for the project.</p>
+      <p>I lead product and development with our team at Representing Artists. I secured €40,000 in funding from MIZ Babelsberg.</p>
       <p><a href="https://www.alex-berlin.de/videos/2202508-miz-innovation-pitch-%2310">Watch the public pitch</a> · <a href="https://www.synpose.com">Visit synpose</a></p>
     </div>
   </div>
@@ -49,7 +49,7 @@ description: "Product management and venture building: synpose, idealo, Represen
     </div>
     <div class="text">
       <h3 class="entry-title">Product Owner, homepage and header</h3>
-      <p>I owned idealo’s homepage and header: the entry point for millions of shoppers across Europe. My responsibility covered strategy, discovery and delivery with a cross-functional product team.</p>
+      <p>I led strategy, discovery and delivery for the entry point used by millions of shoppers across Europe, working with a cross-functional team.</p>
     </div>
   </div>
 </section>
@@ -62,8 +62,7 @@ description: "Product management and venture building: synpose, idealo, Represen
     </div>
     <div class="text">
       <h3 class="entry-title"><a href="https://www.representingartists.com">Co-Founder &amp; CEO</a></h3>
-      <p>A Berlin talent agency I co-founded with Matthias Rempe, representing actors, directors, writers and costume designers.</p>
-      <p>We also build synpose within the company.</p>
+      <p>A Berlin agency for actors, directors, writers and costume designers, co-founded with Matthias Rempe.</p>
     </div>
   </div>
 </section>
@@ -78,7 +77,7 @@ description: "Product management and venture building: synpose, idealo, Represen
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://nfdi4culture.de">NFDI4Culture</a> <span class="org">— Product Owner &amp; Coordination Lead</span></h3>
-      <p>Led the NFDI4Culture coordination office and managed development of the consortium portal; also coordinated the Academy’s Centres for Digital Music Documentation.</p>
+      <p>Led the coordination office and managed portal development for cultural heritage research.</p>
     </div>
     <div class="side">
       <p class="side-meta">Oct 2020 – Jul 2021</p>
@@ -103,7 +102,7 @@ description: "Product management and venture building: synpose, idealo, Represen
     </div>
     <div class="text">
       <p><a href="https://www.linkedin.com/in/vonvlaho/details/recommendations/">Recommendations from my idealo colleagues</a>.</p>
-      <p>I also mentored the Digital Literacy Program at <a href="https://www.redi-school.org">ReDI School of Digital Integration</a> from October 2023 to June 2024.</p>
+      <p>Mentor, Digital Literacy Program at <a href="https://www.redi-school.org">ReDI School of Digital Integration</a>, October 2023 – June 2024.</p>
     </div>
   </div>
 </section>
