@@ -42,7 +42,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
       <h2 class="label" id="programme">Research programme</h2>
     </div>
     <div class="text">
-      <p>I study how institutions and markets shape musical knowledge: from musicology under the SED dictatorship to printed music crossing the Atlantic. My work combines archival research, digital editions and tools for analysing sources.</p>
+      <p>I study how institutions and markets shape musical knowledge and its circulation, combining archival research with digital methods.</p>
     </div>
   </div>
 </section>
@@ -54,7 +54,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
     </div>
     <div class="text">
       <h3 class="entry-title">Publishing and Advertising Music across the Nineteenth-Century Atlantic</h3>
-      <p>I am developing a project on how publishers brought European repertoire to American markets through selection, advertising, rights and distribution. Building on my <a href="#schuberth">published Schuberth chapter</a>, it will connect catalogues with business records to distinguish advertised availability from transactions and reception.</p>
+      <p>Building on my <a href="#schuberth">work on Julius Schuberth</a>, I am developing a project on publishers’ roles in the circulation of music between Europe and America.</p>
     </div>
   </div>
 </section>
@@ -68,9 +68,8 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
       <div class="book">
         <h3 class="book-title" lang="de">Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR</h3>
         <p class="book-gloss">A history of music research in the German Democratic Republic</p>
-        <p class="book-cite">Peter Lang, 2026. 398 pages. Open access (CC BY 4.0). <a href="https://doi.org/10.3726/b23614">doi.org/10.3726/b23614</a></p>
-        <p>How was musicology organised and practised under the SED dictatorship? Archival research meets digital analysis in this history of the discipline.</p>
-        <p>Companion work: a <a href="https://musikwissenschaft-ddr.de">searchable edition of ten research reports, 1966–1975</a>, with <a href="https://github.com/vonvlaho/bibreports">open analysis code</a>.</p>
+        <p class="book-cite">Peter Lang, 2026. Open access.</p>
+        <p>A study of how musicology was organised and practised under the SED dictatorship, with a companion <a href="https://musikwissenschaft-ddr.de">digital edition</a> and <a href="https://github.com/vonvlaho/bibreports">analysis tools</a>.</p>
         <p class="book-links"><a class="btn" href="https://www.peterlang.com/free_download?document_id=1670747&amp;product_form=ebook&amp;publication_type=pdf">Read open access</a> <a class="btn" href="https://www.peterlang.com/document/1670747">Print edition</a></p>
       </div>
     </div>
@@ -87,7 +86,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <ul class="biblio">
     <li>
       <div class="side"><p class="side-meta">2017 – 2025</p></div>
-      <p class="cite">Doctorate in Musicology, <a href="https://www.uni-mainz.de">Johannes Gutenberg University Mainz</a>. Dissertation: <a href="https://doi.org/10.3726/b23614">„Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR“</a>. Supervisors: Stefanie Acquavella-Rauch and Klaus Pietschmann. Defended 17 January 2025; published by Peter Lang, Berlin 2026, in print and in open access under CC BY 4.0.</p>
+      <p class="cite">Doctorate in Musicology, <a href="https://www.uni-mainz.de">Johannes Gutenberg University Mainz</a>. Dissertation: <a href="https://doi.org/10.3726/b23614">„Apparat Musikwissenschaft. Eine Geschichte der Musikforschung in der DDR“</a>. Supervisors: Stefanie Acquavella-Rauch and Klaus Pietschmann. Defended 17 January 2025.</p>
     </li>
     <li>
       <div class="side"><p class="side-meta">2014 – 2016</p></div>
@@ -287,7 +286,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title">MusicDNA</h3>
-      <p>Algorithmic approaches to musical recognition and analysis, bridging notated and audio-based music. Cooperation partner on a project led by Anna Neovesky, funded by the Carl Zeiss Foundation.</p>
+      <p>Cooperation partner on algorithmic music recognition and analysis. Led by Anna Neovesky; funded by the Carl Zeiss Foundation.</p>
     </div>
     <div class="side">
       <p class="side-meta">2025 – 2027</p>
@@ -297,7 +296,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://nfdi4culture.de">NFDI4Culture</a></h3>
-      <p>National research data infrastructure for tangible and intangible cultural heritage. Led the coordination office and managed development of the consortium portal.</p>
+      <p>Led the coordination office and managed portal development for the national research data consortium for cultural heritage.</p>
     </div>
     <div class="side">
       <p class="side-meta">2020 – 2021</p>
@@ -307,7 +306,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title">Centres for Digital Music Documentation</h3>
-      <p>Coordination of the Academy’s centres and their digital-music-documentation work.</p>
+      <p>Coordinated the centres at the Academy of Sciences and Literature Mainz.</p>
     </div>
     <div class="side">
       <p class="side-meta">2020 – 2021</p>
@@ -317,7 +316,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://incipitsearch.adwmainz.net">IncipitSearch</a></h3>
-      <p>Web platform for searching notated music, with a web service and open API for music data. Concept and development, with a focus on music information retrieval, semantic modelling, and web development.</p>
+      <p>Co-developed a search platform and open API connecting notated music across repositories.</p>
     </div>
     <div class="side">
       <p class="side-meta">2017 – 2020</p>
@@ -327,7 +326,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://www.gluck-gesamtausgabe.de">Gluck-Werkverzeichnis-online</a></h3>
-      <p>Digital catalogue raisonné of Christoph Willibald Gluck’s works. Technical development and data modelling for the digital edition of the complete works, and open-access delivery.</p>
+      <p>Technical development and data modelling for the online catalogue of Gluck’s works.</p>
     </div>
     <div class="side"><p class="side-meta">2017 – 2020</p></div>
   </article>
@@ -335,7 +334,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://www.kleinefaecher.de">Portal Kleine Fächer</a></h3>
-      <p>Information portal recording, visualising and analysing small academic disciplines in Germany. Worked on the concept and technical implementation, with the German federal education ministry and the Volkswagen Foundation.</p>
+      <p>Contributed to the design and development of a portal documenting small academic disciplines in Germany.</p>
     </div>
     <div class="side"><p class="side-meta">2017 – 2020</p></div>
   </article>
@@ -343,7 +342,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://agate.academy">AGATE</a></h3>
-      <p>European research information system for the Union of German Academies of Sciences and Humanities. Concept and implementation, including the interlinking and reuse of research data.</p>
+      <p>Contributed to the design and development of a European research information system for the Union of German Academies.</p>
     </div>
     <div class="side">
       <p class="side-meta">2018 – 2020</p>
@@ -353,7 +352,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://musikwissenschaft-ddr.de">Musikwissenschaft-DDR</a></h3>
-      <p>Digital edition and NLP tools for analysing reports on musicological work in the GDR. <a href="https://doi.org/10.5281/zenodo.22296464">Software and reusable bibliographic data, version 1.1.0</a>, released 4 September 2026, accompany the monograph. <a href="https://github.com/vonvlaho/bibreports">Source code</a>.</p>
+      <p>Digital edition and NLP tools accompanying the monograph. <a href="https://doi.org/10.5281/zenodo.22296464">Software and bibliographic data, version 1.1.0</a> · <a href="https://github.com/vonvlaho/bibreports">Source code</a>.</p>
     </div>
     <div class="side">
       <p class="side-meta">2021 – 2026</p>
@@ -389,11 +388,11 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <ul class="biblio">
     <li>
       <div class="side"><p class="side-meta">2020</p></div>
-      <p class="cite">„Digitale Musikwissenschaft. Das ABC der akustischen Welt“, International Summer School, Mainz 2020. Course instructor: prepared and delivered the course for approximately 20 master’s students.</p>
+      <p class="cite">„Digitale Musikwissenschaft. Das ABC der akustischen Welt“, International Summer School, Mainz 2020. Course instructor, master’s level.</p>
     </li>
     <li>
       <div class="side"><p class="side-meta">2019</p></div>
-      <p class="cite">„Methods and tools for annotating music“, International Summer School, Mainz 2019. Course instructor: prepared and delivered the course for approximately 20 master’s students.</p>
+      <p class="cite">„Methods and tools for annotating music“, International Summer School, Mainz 2019. Course instructor, master’s level.</p>
     </li>
   </ul>
 </section>
@@ -458,7 +457,7 @@ description: "Research by Frederic von Vlahovits on musicology under the SED dic
   <div class="row">
     <div class="side"><h2 class="label" id="contributions">Collaboration</h2></div>
     <div class="text">
-      <p>Contributed digital concepts and implementation plans to successful funding proposals for the Erich Wolfgang Korngold Werkausgabe (Akademienprogramm), Die Dynamik kleiner Fächer (BMBF) and Deutsch-französische Modellkartierung kleiner Fächer (VolkswagenStiftung), as a collaborator.</p>
+      <p>Contributed digital concepts and development plans to successful funding proposals for the Erich Wolfgang Korngold Werkausgabe (Akademienprogramm), Die Dynamik kleiner Fächer (BMBF) and Deutsch-französische Modellkartierung kleiner Fächer (VolkswagenStiftung).</p>
       <p>Contributed to the MA programme Digitale Methodik in den Geistes- und Kulturwissenschaften at Mainz and supervised student research assistants in digital humanities projects.</p>
     </div>
   </div>
