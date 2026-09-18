@@ -76,7 +76,7 @@ description: "Product management and venture building: synpose, Representing Art
   <article class="row entry">
     <div class="text">
       <h3 class="entry-title"><a href="https://nfdi4culture.de">NFDI4Culture</a> <span class="org">— Product Owner &amp; Coordination Lead</span></h3>
-      <p>Led the coordination office and managed portal development for cultural heritage research.</p>
+      <p>Co-led the coordination office and managed portal development for cultural heritage research.</p>
     </div>
     <div class="side">
       <p class="side-meta">Oct 2020 – Jul 2021</p>
